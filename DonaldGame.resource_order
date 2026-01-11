@@ -1,0 +1,21 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
+    {"name":"Buns","order":2,"path":"folders/Sprites/Hands/Buns.yy",},
+    {"name":"Work Areas","order":1,"path":"folders/Sprites/Work Areas.yy",},
+    {"name":"Bun Racks","order":1,"path":"folders/Sprites/Work Areas/Bun Racks.yy",},
+    {"name":"Toaster","order":2,"path":"folders/Sprites/Work Areas/Toaster.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"o_hand","order":1,"path":"objects/o_hand/o_hand.yy",},
+    {"name":"o_handManager","order":2,"path":"objects/o_handManager/o_handManager.yy",},
+    {"name":"o_toaster","order":3,"path":"objects/o_toaster/o_toaster.yy",},
+    {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
+    {"name":"s_hDeluxeBun","order":1,"path":"sprites/s_hDeluxeBun/s_hDeluxeBun.yy",},
+    {"name":"s_hSuperBun","order":2,"path":"sprites/s_hSuperBun/s_hSuperBun.yy",},
+    {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
+  ],
+}
