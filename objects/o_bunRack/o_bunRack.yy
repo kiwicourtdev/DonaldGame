@@ -10,8 +10,8 @@
   "name":"o_bunRack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Bun Racks",
+    "path":"folders/Objects/Work Areas/Bun Racks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"o_handManager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Hands",
+    "path":"folders/Objects/Hands.yy",
   },
   "parentObjectId":null,
   "persistent":false,

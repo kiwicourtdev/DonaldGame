@@ -1,6 +1,10 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Hands","order":6,"path":"folders/Objects/Hands.yy",},
+    {"name":"Work Areas","order":5,"path":"folders/Objects/Work Areas.yy",},
+    {"name":"Bun Racks","order":2,"path":"folders/Objects/Work Areas/Bun Racks.yy",},
+    {"name":"Toaster","order":1,"path":"folders/Objects/Work Areas/Toaster.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
@@ -10,12 +14,12 @@
     {"name":"Toaster","order":2,"path":"folders/Sprites/Work Areas/Toaster.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"o_hand","order":1,"path":"objects/o_hand/o_hand.yy",},
-    {"name":"o_handManager","order":2,"path":"objects/o_handManager/o_handManager.yy",},
-    {"name":"o_toaster","order":3,"path":"objects/o_toaster/o_toaster.yy",},
+    {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},
+    {"name":"o_toaster","order":1,"path":"objects/o_toaster/o_toaster.yy",},
     {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
     {"name":"s_hDeluxeBun","order":1,"path":"sprites/s_hDeluxeBun/s_hDeluxeBun.yy",},
     {"name":"s_hSuperBun","order":2,"path":"sprites/s_hSuperBun/s_hSuperBun.yy",},
     {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
+    {"name":"s_toastedZone","order":1,"path":"sprites/s_toastedZone/s_toastedZone.yy",},
   ],
 }

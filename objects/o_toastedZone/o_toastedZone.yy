@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_hand",
+  "%Name":"o_toastedZone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_hand",
+  "name":"o_toastedZone",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hands",
-    "path":"folders/Objects/Hands.yy",
+    "name":"Toaster",
+    "path":"folders/Objects/Work Areas/Toaster.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_hEmpty",
-    "path":"sprites/s_hEmpty/s_hEmpty.yy",
+    "name":"s_toastedZone",
+    "path":"sprites/s_toastedZone/s_toastedZone.yy",
   },
   "spriteMaskId":null,
   "visible":true,
