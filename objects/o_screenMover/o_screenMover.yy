@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"o_bunRack",
+  "%Name":"o_screenMover",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_bunRack",
+  "name":"o_screenMover",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bun Racks",
-    "path":"folders/Objects/Work Areas/Bun Racks.yy",
+    "name":"Hands",
+    "path":"folders/Objects/Hands.yy",
   },
   "parentObjectId":{
     "name":"o_worldObject",
@@ -35,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_basicBunRack",
-    "path":"sprites/s_basicBunRack/s_basicBunRack.yy",
+    "name":"s_screenMover",
+    "path":"sprites/s_screenMover/s_screenMover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

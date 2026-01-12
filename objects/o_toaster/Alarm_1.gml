@@ -1,8 +1,8 @@
-/// @description Bun 0 Finished
+/// @description Bun 1 Finished
 var replace = pickup.empty;
 var spr = noone;
 
-switch(buns[0]){
+switch(buns[1]){
 	case pickup.basicBun:
 		replace = pickup.basicToast;
 		spr = s_hBasicToast;
@@ -17,8 +17,8 @@ switch(buns[0]){
 	break;
 };
 
-with(zones[0]){
+with(zones[1]){
 	hold = replace;
 	holdSprite = spr;
 };
-buns[0] = pickup.empty;
+buns[1] = pickup.empty;

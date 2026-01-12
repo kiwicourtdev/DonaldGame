@@ -3,6 +3,8 @@
   "%Name":"o_toastedZone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_toastedZone",
@@ -11,7 +13,10 @@
     "name":"Toaster",
     "path":"folders/Objects/Work Areas/Toaster.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_worldObject",
+    "path":"objects/o_worldObject/o_worldObject.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

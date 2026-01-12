@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_handManager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"o_worldObject",
+  "eventList":[],
   "managed":true,
-  "name":"o_handManager",
+  "name":"o_worldObject",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hands",
-    "path":"folders/Objects/Hands.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

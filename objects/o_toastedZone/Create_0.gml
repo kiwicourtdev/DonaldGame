@@ -1,2 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Init
+
+//Final
+singleUse = true;
+
+//Modify
+holdSprite = noone;
+hold = pickup.empty;
