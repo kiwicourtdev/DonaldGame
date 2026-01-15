@@ -1,7 +1,9 @@
 /// @description Move Every Object
 
-if(horizontal){
-	o_worldObject.x += move;
-}else{
-	o_worldObject.y += move;
+with(o_worldObject){
+	if(other.horizontal){
+		x += other.move;
+	}else{
+		y += other.move;
+	};
 };
