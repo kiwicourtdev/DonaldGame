@@ -1,3 +1,3 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.onion;
+hold = pickup.tongs;
 holdSprite = s_hDeluxeBun;

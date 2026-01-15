@@ -1,3 +1,3 @@
-sprite_index = s_superBunRack;
-hold = pickup.superBun;
-holdSprite = s_hSuperBun;
+sprite_index = s_deluxeBunRack;
+hold = pickup.regMeat;
+holdSprite = s_hDeluxeBun;

@@ -1,3 +1,3 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.deluxeBun;
+hold = pickup.shovel;
 holdSprite = s_hDeluxeBun;

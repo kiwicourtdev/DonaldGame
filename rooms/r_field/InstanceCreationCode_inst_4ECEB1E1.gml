@@ -1,3 +1,4 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.deluxeBun;
+hold = pickup.chickenWrap;
 holdSprite = s_hDeluxeBun;
+singleUse = false;
