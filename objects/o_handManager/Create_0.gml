@@ -27,7 +27,6 @@ enum pickup{
 	
 	ketchup,
 	mustard,
-	sludgeSauce,
 	chickenSauce,
 	superSauce,
 	
@@ -53,6 +52,7 @@ enum pickup{
 
 //Modify
 hands = [noone,noone];
+global.sourceID = [noone,noone];
 
 //Init
 hands[0] = instance_create_depth(80,220,depth,o_hand);
