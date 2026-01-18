@@ -13,8 +13,6 @@ enum pickup{
 	superToast,
 	
 	basicWrap,
-	cheeseWrap,
-	doubleBasicWrap,
 	chickenWrap,
 	
 	deluxeBox,

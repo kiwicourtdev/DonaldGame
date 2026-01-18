@@ -10,8 +10,8 @@
   "name":"o_bunRack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bun Racks",
-    "path":"folders/Objects/Work Areas/Bun Racks.yy",
+    "name":"Work Areas",
+    "path":"folders/Objects/Work Areas.yy",
   },
   "parentObjectId":{
     "name":"o_worldObject",
