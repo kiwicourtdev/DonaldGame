@@ -1,4 +1,3 @@
 sprite_index = s_superBunRack;
-hold = pickup.mustard;
-holdSprite = s_hMustard;
+hold = global.pickup.mustard;
 singleUse = false;

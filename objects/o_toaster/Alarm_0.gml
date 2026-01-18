@@ -1,24 +1,21 @@
 /// @description Bun 0 Finished
-var replace = pickup.empty;
+var replace = global.pickup.empty;
 var spr = noone;
 
 switch(buns[0]){
-	case pickup.basicBun:
-		replace = pickup.basicToast;
-		spr = s_hBasicToast;
+	case global.pickup.basicBun:
+		replace = global.pickup.basicToast;
 	break;
-	case pickup.deluxeBun:
-		replace = pickup.deluxeToast;
-		spr = s_hDeluxeToast;
+	case global.pickup.deluxeBun:
+		replace = global.pickup.deluxeToast;
 	break;
-	case pickup.superBun:
-		replace = pickup.superToast;
-		spr = s_hSuperToast;
+	case global.pickup.superBun:
+		replace = global.pickup.superToast;
 	break;
 };
 
 with(zones[0]){
 	hold = replace;
-	holdSprite = spr;
+	holdSprite = hold;
 };
-buns[0] = pickup.empty;
+buns[0] = global.pickup.empty;

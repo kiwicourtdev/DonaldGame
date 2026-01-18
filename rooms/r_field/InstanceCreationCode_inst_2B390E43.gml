@@ -1,3 +1,2 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.nugL;
-holdSprite = s_hNugL;
+hold = global.pickup.nugL;

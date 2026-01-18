@@ -10,7 +10,7 @@ bunsIn = 0;
 //Init
 buns = array_create(bunsMax);
 for(var i = 0; i < bunsMax; i++){
-	buns[i] = pickup.empty;
+	buns[i] = global.pickup.empty;
 }
 
 zones = array_create(2);

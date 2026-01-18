@@ -1,4 +1,3 @@
 sprite_index = s_superBunRack;
-hold = pickup.superSauce;
-holdSprite = s_hSuperSauce;
+hold = global.pickup.superSauce;
 singleUse = false;

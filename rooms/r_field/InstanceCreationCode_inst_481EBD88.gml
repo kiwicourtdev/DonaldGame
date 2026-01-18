@@ -1,4 +1,3 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.ketchup;
-holdSprite = s_hKetchup;
+hold = global.pickup.ketchup;
 singleUse = false;

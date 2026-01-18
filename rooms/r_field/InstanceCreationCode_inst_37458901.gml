@@ -1,3 +1,2 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.lettuce;
-holdSprite = s_hLettuce;
+hold = global.pickup.lettuce;

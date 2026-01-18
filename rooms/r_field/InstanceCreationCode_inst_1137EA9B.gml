@@ -1,3 +1,2 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.onion;
-holdSprite = s_hOnion;
+hold = global.pickup.onion;

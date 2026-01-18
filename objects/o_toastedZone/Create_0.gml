@@ -5,4 +5,4 @@ singleUse = true;
 
 //Modify
 holdSprite = noone;
-hold = pickup.empty;
+hold = global.pickup.empty;

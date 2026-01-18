@@ -1,3 +1,2 @@
 sprite_index = s_deluxeBunRack;
-hold = pickup.tomato;
-holdSprite = s_hTomato;
+hold = global.pickup.tomato;

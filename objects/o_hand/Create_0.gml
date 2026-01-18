@@ -4,6 +4,6 @@
 rightHand = false;
 
 //Modify
-hold = pickup.empty;
+hold = global.pickup.empty;
 holdSprite = noone;
 dropAfterUse = false;

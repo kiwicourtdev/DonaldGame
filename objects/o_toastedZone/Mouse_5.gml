@@ -1,10 +1,10 @@
 /// @description Pickup Only
 
-if(o_handManager.hands[1].hold == pickup.empty && hold != pickup.empty){
+if(o_handManager.hands[1].hold == global.pickup.empty && hold != global.pickup.empty){
 	var hand = o_handManager.hands[1];
 	hand.hold = hold;
 	hand.holdSprite = holdSprite;
 	hand.dropAfterUse = singleUse;
-	hold = pickup.empty;
+	hold = global.pickup.empty;
 	o_toaster.bunsIn--;
 };

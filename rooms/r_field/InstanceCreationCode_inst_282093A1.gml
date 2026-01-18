@@ -1,4 +1,3 @@
 sprite_index = s_basicBunRack
-hold = pickup.chickenSauce;
-holdSprite = s_hChickenSauce;
+hold = global.pickup.chickenSauce;
 singleUse = false;
