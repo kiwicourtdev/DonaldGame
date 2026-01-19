@@ -52,6 +52,7 @@
     {"id":{"name":"sc_pickup","path":"scripts/sc_pickup/sc_pickup.yy",},},
     {"id":{"name":"s_basicBunRack","path":"sprites/s_basicBunRack/s_basicBunRack.yy",},},
     {"id":{"name":"s_deluxeBunRack","path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},},
+    {"id":{"name":"s_empty","path":"sprites/s_empty/s_empty.yy",},},
     {"id":{"name":"s_emptySpot","path":"sprites/s_emptySpot/s_emptySpot.yy",},},
     {"id":{"name":"s_hBasicBun","path":"sprites/s_hBasicBun/s_hBasicBun.yy",},},
     {"id":{"name":"s_hBasicToast","path":"sprites/s_hBasicToast/s_hBasicToast.yy",},},

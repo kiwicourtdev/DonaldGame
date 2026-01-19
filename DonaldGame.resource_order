@@ -27,6 +27,7 @@
     {"name":"o_toaster","order":1,"path":"objects/o_toaster/o_toaster.yy",},
     {"name":"o_worldObject","order":7,"path":"objects/o_worldObject/o_worldObject.yy",},
     {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
+    {"name":"s_empty","order":1,"path":"sprites/s_empty/s_empty.yy",},
     {"name":"s_hBigChickenBox","order":5,"path":"sprites/s_hBigChickenBox/s_hBigChickenBox.yy",},
     {"name":"s_hBigMeat","order":4,"path":"sprites/s_hBigMeat/s_hBigMeat.yy",},
     {"name":"s_hBigOnion","order":4,"path":"sprites/s_hBigOnion/s_hBigOnion.yy",},

@@ -24,7 +24,7 @@ if((hand.hold != hold) && (hand.hold == global.pickup.empty || needsTool != tool
 		};
 	};
 }else{//Put Down
-	if(!(tool && id != global.sourceID[1]) && buns < bunMax){
+	if((hand.hold == hold) && !(tool && id != global.sourceID[0]) && (buns+1 <= bunMax || !singleUse)){
 		if singleUse
 		buns++;
 		else

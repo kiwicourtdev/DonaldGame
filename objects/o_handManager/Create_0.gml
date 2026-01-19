@@ -2,7 +2,7 @@
 
 //Final
 global.pickup = {
-	empty: -1,
+	empty: asset_get_index(s_empty),
 
 	basicBun: asset_get_index(s_hBasicBun),
 	deluxeBun: asset_get_index(s_hDeluxeBun),

@@ -2,6 +2,6 @@
 function sc_pickup(right,newHold){
 	var hand = o_handManager.hands[right];
 	hand.hold = newHold;
-	hand.holdSprite = hold;
+	hand.holdSprite = newHold;
 	hand.dropAfterUse = singleUse;
 }
