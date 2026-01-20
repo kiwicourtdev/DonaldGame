@@ -6,10 +6,10 @@ switch(buns[1]){
 	case global.pickup.basicBun:
 		replace = global.pickup.basicToast;
 	break;
-	case pickup.deluxeBun:
+	case global.pickup.deluxeBun:
 		replace = global.pickup.deluxeToast;
 	break;
-	case pickup.superBun:
+	case global.pickup.superBun:
 		replace = global.pickup.superToast;
 	break;
 };

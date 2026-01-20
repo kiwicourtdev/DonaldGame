@@ -20,7 +20,7 @@ if((hand.hold != hold) && (hand.hold == global.pickup.empty || needsTool != tool
 			}else
 			global.sourceID[0] = id;
 		
-			sc_pickup(0,hold);
+			sc_pickup(0,hold,singleUse);
 		};
 	};
 }else{//Put Down
@@ -30,6 +30,6 @@ if((hand.hold != hold) && (hand.hold == global.pickup.empty || needsTool != tool
 		else
 		global.sourceID[0] = id;
 		
-		sc_pickup(0,global.pickup.empty);
+		sc_pickup(0,global.pickup.empty,false);
 	};
 };
