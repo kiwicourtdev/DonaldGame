@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Containers",
-    "path":"folders/Sprites/Hands/Containers.yy",
+    "name":"Empty",
+    "path":"folders/Sprites/Hands/Containers/Empty.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
