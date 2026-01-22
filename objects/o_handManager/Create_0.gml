@@ -45,12 +45,15 @@ global.pickup = {
 	chicken: asset_get_index(s_hChicken),
 	coolChicken: asset_get_index(s_hCoolChicken),
 	nuggets: asset_get_index(s_hNuggets),
-	bigMeat: asset_get_index(s_hBigMeat)
+	bigMeat: asset_get_index(s_hBigMeat),
+	
+	finished: asset_get_index(s_hDeluxeBoxF)
 };
 
 //Modify
 hands = [noone,noone];
 global.sourceID = [noone,noone];
+global.finishedSandwiches = [noone,noone];
 
 //Init
 hands[0] = instance_create_depth(80,220,depth,o_hand);

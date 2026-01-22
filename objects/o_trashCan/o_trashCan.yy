@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"o_depositZone",
+  "%Name":"o_trashCan",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_depositZone",
+  "name":"o_trashCan",
   "overriddenProperties":[],
   "parent":{
     "name":"Work Areas",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_depositZone",
-    "path":"sprites/s_depositZone/s_depositZone.yy",
+    "name":"s_trashCan",
+    "path":"sprites/s_trashCan/s_trashCan.yy",
   },
   "spriteMaskId":null,
   "visible":true,

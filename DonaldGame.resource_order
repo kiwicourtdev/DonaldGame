@@ -29,6 +29,7 @@
     {"name":"o_sandwichFinisher","order":1,"path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},
     {"name":"o_screenMover","order":3,"path":"objects/o_screenMover/o_screenMover.yy",},
     {"name":"o_toaster","order":1,"path":"objects/o_toaster/o_toaster.yy",},
+    {"name":"o_trashCan","order":5,"path":"objects/o_trashCan/o_trashCan.yy",},
     {"name":"o_worldObject","order":7,"path":"objects/o_worldObject/o_worldObject.yy",},
     {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
     {"name":"s_depositZone","order":2,"path":"sprites/s_depositZone/s_depositZone.yy",},
@@ -68,5 +69,6 @@
     {"name":"s_sandwichFinisher","order":1,"path":"sprites/s_sandwichFinisher/s_sandwichFinisher.yy",},
     {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
     {"name":"s_toastedZone","order":1,"path":"sprites/s_toastedZone/s_toastedZone.yy",},
+    {"name":"s_trashCan","order":3,"path":"sprites/s_trashCan/s_trashCan.yy",},
   ],
 }

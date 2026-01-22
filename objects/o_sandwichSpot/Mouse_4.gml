@@ -3,7 +3,7 @@
 var hand = o_handManager.hands[0];
 
 //Check for If an Item is Held
-if(hand.hold != global.pickup.empty && hand.hold != global.pickup.tongs && hand.hold != global.pickup.shovel){
+if(hand.hold != global.pickup.finished && hand.hold != global.pickup.empty && hand.hold != global.pickup.tongs && hand.hold != global.pickup.shovel){
 	/*Check for Valid Items
 	* - Putting down a wrap or box if nothing is there.
 	* - Putting a toasted bun on a wrapper or non-nugget box.
