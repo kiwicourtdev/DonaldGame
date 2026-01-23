@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
-    {"name":"Other","order":8,"path":"folders/Objects/Other.yy",},
     {"name":"Hands","order":6,"path":"folders/Objects/Hands.yy",},
+    {"name":"Other","order":8,"path":"folders/Objects/Other.yy",},
     {"name":"Work Areas","order":5,"path":"folders/Objects/Work Areas.yy",},
     {"name":"Sandwich Spot","order":1,"path":"folders/Objects/Work Areas/Sandwich Spot.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},

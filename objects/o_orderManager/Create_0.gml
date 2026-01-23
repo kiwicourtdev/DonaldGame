@@ -1,9 +1,10 @@
 /// @description Init
 
 //Final
-xOffsetAmount = 64;
+xOffsetAmount = 32;
 xMin = 64;
-xMax = 206;
+xMax = 320;
+gap = 128;
 
 //Modify
 orders = ds_list_create();

@@ -11,8 +11,8 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Other","folderPath":"folders/Objects/Other.yy","name":"Other","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hands","folderPath":"folders/Objects/Hands.yy","name":"Hands","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Other","folderPath":"folders/Objects/Other.yy","name":"Other","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Work Areas","folderPath":"folders/Objects/Work Areas.yy","name":"Work Areas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sandwich Spot","folderPath":"folders/Objects/Work Areas/Sandwich Spot.yy","name":"Sandwich Spot","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Toaster","folderPath":"folders/Objects/Work Areas/Toaster.yy","name":"Toaster","resourceType":"GMFolder","resourceVersion":"2.0",},
