@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
+    {"name":"Other","order":8,"path":"folders/Objects/Other.yy",},
     {"name":"Hands","order":6,"path":"folders/Objects/Hands.yy",},
     {"name":"Work Areas","order":5,"path":"folders/Objects/Work Areas.yy",},
     {"name":"Sandwich Spot","order":1,"path":"folders/Objects/Work Areas/Sandwich Spot.yy",},
@@ -26,6 +27,7 @@
     {"name":"o_bunRack","order":2,"path":"objects/o_bunRack/o_bunRack.yy",},
     {"name":"o_depositZone","order":4,"path":"objects/o_depositZone/o_depositZone.yy",},
     {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},
+    {"name":"o_orderManager","order":1,"path":"objects/o_orderManager/o_orderManager.yy",},
     {"name":"o_sandwichFinisher","order":1,"path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},
     {"name":"o_screenMover","order":3,"path":"objects/o_screenMover/o_screenMover.yy",},
     {"name":"o_toaster","order":1,"path":"objects/o_toaster/o_toaster.yy",},
@@ -66,6 +68,7 @@
     {"name":"s_hSuperSauce","order":3,"path":"sprites/s_hSuperSauce/s_hSuperSauce.yy",},
     {"name":"s_hSuperToast","order":2,"path":"sprites/s_hSuperToast/s_hSuperToast.yy",},
     {"name":"s_hTomato","order":6,"path":"sprites/s_hTomato/s_hTomato.yy",},
+    {"name":"s_orderTicket","order":4,"path":"sprites/s_orderTicket/s_orderTicket.yy",},
     {"name":"s_sandwichFinisher","order":1,"path":"sprites/s_sandwichFinisher/s_sandwichFinisher.yy",},
     {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
     {"name":"s_toastedZone","order":1,"path":"sprites/s_toastedZone/s_toastedZone.yy",},
