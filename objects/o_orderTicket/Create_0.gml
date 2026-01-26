@@ -2,26 +2,26 @@
 
 //Final
 enum orders{
-	ham,
-	cheese,
-	doubleHam,
-	doubleCheese,
+	ham=0,
+	cheese=1,
+	doubleHam=2,
+	doubleCheese=3,
 	
-	chicken,
+	chicken=4,
 	
-	bigChicken,
+	bigChicken=5,
 	
-	deluxeCheese,
-	doubleDeluxe,
-	deluxeDeluxe,
+	deluxeCheese=6,
+	doubleDeluxe=7,
+	deluxeDeluxe=8,
 	
-	superCheese,
+	superCheese=9,
 	
-	nugS,
+	nugS=10,
 	
-	nugM,
+	nugM=11,
 	
-	nugL
+	nugL=12
 };
 
 var p = global.pickup;
@@ -55,13 +55,39 @@ baseOrders = [
 	//Nug S
 	[p.nugS,p.nuggets],
 	
-	//Nug S
-	[p.nugS,p.nuggets,p.nuggets],
+	//Nug M
+	[p.nugM,p.nuggets,p.nuggets],
 	
-	//Nug S
-	[p.nugS,p.nuggets,p.nuggets,p.nuggets,p.nuggets]
+	//Nug L
+	[p.nugL,p.nuggets,p.nuggets,p.nuggets,p.nuggets]
 ];
 
+orderNames = [
+"Hamburger",
+"Cheeseburger",
+"Double\nHamburger",
+"Double\nCheeseburger",
+"Chicken\nSandwich",
+"Big Chicken\nSandwich",
+"Deluxe\nCheeseburger",
+"Deluxe\nDouble\nCheeseburger",
+"Deluxe\nDeluxe\nCheeseburger",
+"Super\nCheeseburger",
+"Small\nNuggets",
+"Medium\nNuggets",
+"Large\nNuggets"
+]
+
+total = array_length(orderNames);
+orderLength = irandom_range(1,5);
+lineWrapSep = 12;
+border = 8;
+
 //Modify
+active = true;
+order = ds_list_create();
 
 //Init
+for(i = 0; i < orderLength; i++){
+	ds_list_add(order,irandom_range(0,total-1));
+};

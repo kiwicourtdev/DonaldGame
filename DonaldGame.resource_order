@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
     {"name":"Hands","order":6,"path":"folders/Objects/Hands.yy",},
     {"name":"Other","order":8,"path":"folders/Objects/Other.yy",},

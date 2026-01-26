@@ -2,9 +2,9 @@
   "$GMSprite":"v2",
   "%Name":"s_orderTicket",
   "bboxMode":0,
-  "bbox_bottom":127,
+  "bbox_bottom":0,
   "bbox_left":0,
-  "bbox_right":95,
+  "bbox_right":111,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":128,
+  "height":1,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"bddfc757-d728-4ba9-8a80-7cc0c655d223","blendMode":0,"displayName":"default","isLocked":false,"name":"bddfc757-d728-4ba9-8a80-7cc0c655d223","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":96,
+  "width":112,
 }
