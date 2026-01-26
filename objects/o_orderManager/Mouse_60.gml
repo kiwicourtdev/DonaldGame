@@ -1,5 +1,5 @@
 /// @description Scroll Left
-if(ds_list_find_value(orders,ds_list_size(orders)-1).x - xOffsetAmount >= xMax){
+if(ds_list_find_value(orderList,ds_list_size(orderList)-1).x - xOffsetAmount >= xMax){
 	xOffset -= xOffsetAmount;
 
 	with(o_orderTicket){

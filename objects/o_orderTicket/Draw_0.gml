@@ -1,10 +1,17 @@
 /// @description Draw Sprite and Order Text
 draw_set_font(f_vcr10);
 var c = c_black;
-var str = "";
-for(i = 0; i < ds_list_size(order); i++){
-	str += orderNames[ds_list_find_value(order,i)] + "\n\n";
-};
-image_yscale = string_height(str);
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
-draw_text_ext_color(x+border,y+lineWrapSep/2,str,lineWrapSep-border*2,sprite_width,c,c,c,c,image_alpha);
+var previousY = y;
+var bottom = 0;;
+for(i = 0; i < ds_list_size(order); i++){
+	var yOffset = lineWrapSep/2;
+	
+	if(i != 0) yOffset += string_height(orderNames[ds_list_find_value(order,i-1)])+previousY;
+	previousY = yOffset;
+	
+	draw_text_ext_color(x+border,y+yOffset,orderNames[ds_list_find_value(order,i)],lineWrapSep-border*2,sprite_width,c,c,c,c,image_alpha);
+	
+	bottom = y+yOffset+string_height(orderNames[ds_list_find_value(order,i)])+lineWrapSep/2;
+};
+image_yscale = (bottom-y);

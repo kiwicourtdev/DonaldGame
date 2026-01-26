@@ -7,7 +7,7 @@ xMax = 320;
 gap = 128;
 
 //Modify
-orders = ds_list_create();
+orderList = ds_list_create();
 vis = true;
 xOffset = 0;
 

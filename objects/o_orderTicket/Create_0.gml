@@ -86,6 +86,7 @@ border = 8;
 //Modify
 active = true;
 order = ds_list_create();
+completed = array_create(orderLength);
 
 //Init
 for(i = 0; i < orderLength; i++){
