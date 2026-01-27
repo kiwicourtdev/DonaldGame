@@ -10,6 +10,8 @@ for(i = 0; i < ds_list_size(order); i++){
 	if(i != 0) yOffset += string_height(orderNames[ds_list_find_value(order,i-1)])+previousY;
 	previousY = yOffset;
 	
+	if(completed[i]) c = c_green; else c = c_black;
+	
 	draw_text_ext_color(x+border,y+yOffset,orderNames[ds_list_find_value(order,i)],lineWrapSep-border*2,sprite_width,c,c,c,c,image_alpha);
 	
 	bottom = y+yOffset+string_height(orderNames[ds_list_find_value(order,i)])+lineWrapSep/2;

@@ -28,29 +28,29 @@ var p = global.pickup;
 
 baseOrders = [
 	//Ham
-	[p.basicWrap,p.ketchup,p.mustard,p.onion,p.pickle,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.regMeat],
 	//Cheese
-	[p.basicWrap,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat],
 	//Double Ham
-	[p.basicWrap,p.ketchup,p.mustard,p.onion,p.pickle,p.regMeat,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.regMeat,p.regMeat],
 	//Double Cheese
-	[p.basicWrap,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat,p.cheeseSlice,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat,p.cheeseSlice,p.regMeat],
 	
 	//Chicken
-	[p.chickenWrap,p.chickenSauce,p.lettuce,p.chicken],
+	[p.chickenWrap,p.basicToast,p.chickenSauce,p.lettuce,p.chicken],
 	
 	//Big Chicken
-	[p.bigChickenBox,p.chickenSauce,p.lettuce,p.tomato,p.tomato,p.tomato,p.coolChicken],
+	[p.bigChickenBox,p.deluxeToast,p.chickenSauce,p.lettuce,p.tomato,p.tomato,p.tomato,p.coolChicken],
 	
 	//Deluxe Cheese
-	[p.deluxeBox,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
 	//Double Deluxe
-	[p.deluxeBox,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
 	//Deluxe Cheese
-	[p.deluxeBox,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
 	
 	//Super Cheese
-	[p.superBox,p.superSauce,p.superSauce,p.onion,p.onion,p.lettuce,p.lettuce,p.pickle,p.pickle,p.cheeseSlice,p.regMeat,p.regMeat],
+	[p.superBox,p.superToast,p.superSauce,p.superSauce,p.onion,p.onion,p.lettuce,p.lettuce,p.pickle,p.pickle,p.cheeseSlice,p.regMeat,p.regMeat],
 	
 	//Nug S
 	[p.nugS,p.nuggets],
@@ -82,6 +82,7 @@ total = array_length(orderNames);
 orderLength = irandom_range(1,5);
 lineWrapSep = 12;
 border = 8;
+destroyTimer = 300;
 
 //Modify
 active = true;
