@@ -1,16 +1,3 @@
 /// @description Put in Bun (Left)
 
-if(bunsIn < bunsMax && (o_handManager.hands[0].hold == global.pickup.basicBun || o_handManager.hands[0].hold == global.pickup.deluxeBun || o_handManager.hands[0].hold == global.pickup.superBun)){
-	var index = 0;
-	for(var i = 0; i < bunsMax; i++){
-		if(buns[i] == global.pickup.empty){
-			index = i; 
-			break;
-		};
-	};
-	
-	buns[index] = o_handManager.hands[0].hold;
-	alarm[index] = timerMax;
-	bunsIn++;
-	o_handManager.hands[0].hold = global.pickup.empty;
-};
+sc_toaster(0);

@@ -2,26 +2,27 @@
 
 //Final
 enum orders{
-	ham=0,
-	cheese=1,
-	doubleHam=2,
-	doubleCheese=3,
+	ham,
+	cheese,
+	doubleHam,
+	doubleCheese,
 	
-	chicken=4,
+	chicken,
 	
-	bigChicken=5,
+	bigChicken,
 	
-	deluxeCheese=6,
-	doubleDeluxe=7,
-	deluxeDeluxe=8,
+	deluxeCheese,
+	doubleDeluxe,
+	deluxeDeluxe,
+	deluxeDoubleDeluxe,
 	
-	superCheese=9,
+	superCheese,
 	
-	nugS=10,
+	nugS,
 	
-	nugM=11,
+	nugM,
 	
-	nugL=12
+	nugL
 };
 
 var p = global.pickup;
@@ -32,9 +33,9 @@ baseOrders = [
 	//Cheese
 	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat],
 	//Double Ham
-	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.regMeat,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.pickle,p.regMeat,p.regMeat],
 	//Double Cheese
-	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.cheeseSlice,p.regMeat,p.cheeseSlice,p.regMeat],
+	[p.basicWrap,p.basicToast,p.ketchup,p.mustard,p.onion,p.pickle,p.pickle,p.cheeseSlice,p.regMeat,p.cheeseSlice,p.regMeat],
 	
 	//Chicken
 	[p.chickenWrap,p.basicToast,p.chickenSauce,p.lettuce,p.chicken],
@@ -47,6 +48,8 @@ baseOrders = [
 	//Double Deluxe
 	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
 	//Deluxe Cheese
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
+	//Deluxe Double Cheese
 	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
 	
 	//Super Cheese
@@ -72,6 +75,7 @@ orderNames = [
 "Deluxe\nCheeseburger",
 "Deluxe\nDouble\nCheeseburger",
 "Deluxe\nDeluxe\nCheeseburger",
+"Double\nDeluxe\nDeluxe\nCheeseburger",
 "Super\nCheeseburger",
 "Small\nNuggets",
 "Medium\nNuggets",

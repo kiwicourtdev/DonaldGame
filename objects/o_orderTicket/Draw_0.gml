@@ -3,8 +3,8 @@ draw_set_font(f_vcr10);
 var c = c_black;
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 var previousY = y;
-var bottom = 0;;
-for(i = 0; i < ds_list_size(order); i++){
+var bottom = 0;
+for(var i = 0; i < ds_list_size(order); i++){
 	var yOffset = lineWrapSep/2;
 	
 	if(i != 0) yOffset += string_height(orderNames[ds_list_find_value(order,i-1)])+previousY;

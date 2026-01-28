@@ -41,7 +41,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"DonaldGame",
   "resources":[
@@ -60,7 +60,14 @@
     {"id":{"name":"o_trashCan","path":"objects/o_trashCan/o_trashCan.yy",},},
     {"id":{"name":"o_worldObject","path":"objects/o_worldObject/o_worldObject.yy",},},
     {"id":{"name":"r_field","path":"rooms/r_field/r_field.yy",},},
+    {"id":{"name":"sc_bunRack","path":"scripts/sc_bunRack/sc_bunRack.yy",},},
+    {"id":{"name":"sc_depositZone","path":"scripts/sc_depositZone/sc_depositZone.yy",},},
     {"id":{"name":"sc_pickup","path":"scripts/sc_pickup/sc_pickup.yy",},},
+    {"id":{"name":"sc_sandwichFinisher","path":"scripts/sc_sandwichFinisher/sc_sandwichFinisher.yy",},},
+    {"id":{"name":"sc_sandwichSpot","path":"scripts/sc_sandwichSpot/sc_sandwichSpot.yy",},},
+    {"id":{"name":"sc_toastedZone","path":"scripts/sc_toastedZone/sc_toastedZone.yy",},},
+    {"id":{"name":"sc_toaster","path":"scripts/sc_toaster/sc_toaster.yy",},},
+    {"id":{"name":"sc_trashCan","path":"scripts/sc_trashCan/sc_trashCan.yy",},},
     {"id":{"name":"s_basicBunRack","path":"sprites/s_basicBunRack/s_basicBunRack.yy",},},
     {"id":{"name":"s_deluxeBunRack","path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},},
     {"id":{"name":"s_depositZone","path":"sprites/s_depositZone/s_depositZone.yy",},},
