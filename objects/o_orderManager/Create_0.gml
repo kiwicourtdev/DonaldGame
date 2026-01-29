@@ -10,6 +10,8 @@ gap = 128;
 orderList = ds_list_create();
 vis = true;
 xOffset = 0;
+orderGapMin = 3000
+orderGapMax = 2*orderGapMin;
 
 //Init
-alarm[0] = 5;
+alarm[0] = 600;

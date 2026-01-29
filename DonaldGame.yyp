@@ -12,8 +12,9 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Timer","folderPath":"folders/Objects/Timer.yy","name":"Timer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Hands","folderPath":"folders/Objects/Hands.yy","name":"Hands","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Other","folderPath":"folders/Objects/Other.yy","name":"Other","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Orders","folderPath":"folders/Objects/Orders.yy","name":"Orders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Work Areas","folderPath":"folders/Objects/Work Areas.yy","name":"Work Areas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sandwich Spot","folderPath":"folders/Objects/Work Areas/Sandwich Spot.yy","name":"Sandwich Spot","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Toaster","folderPath":"folders/Objects/Work Areas/Toaster.yy","name":"Toaster","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -55,6 +56,7 @@
     {"id":{"name":"o_sandwichFinisher","path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},},
     {"id":{"name":"o_sandwichSpot","path":"objects/o_sandwichSpot/o_sandwichSpot.yy",},},
     {"id":{"name":"o_screenMover","path":"objects/o_screenMover/o_screenMover.yy",},},
+    {"id":{"name":"o_timerManager","path":"objects/o_timerManager/o_timerManager.yy",},},
     {"id":{"name":"o_toastedZone","path":"objects/o_toastedZone/o_toastedZone.yy",},},
     {"id":{"name":"o_toaster","path":"objects/o_toaster/o_toaster.yy",},},
     {"id":{"name":"o_trashCan","path":"objects/o_trashCan/o_trashCan.yy",},},

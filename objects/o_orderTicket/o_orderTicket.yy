@@ -12,8 +12,8 @@
   "name":"o_orderTicket",
   "overriddenProperties":[],
   "parent":{
-    "name":"Other",
-    "path":"folders/Objects/Other.yy",
+    "name":"Orders",
+    "path":"folders/Objects/Orders.yy",
   },
   "parentObjectId":null,
   "persistent":false,
