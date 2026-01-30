@@ -1,12 +1,14 @@
 /// @description Calculate Digits
-var ratio = (timerMax/framesToHours)/duration;
+var ratio = (duration*framesToHours)/(timerMax);
 
 var diff = timerMax - alarm[0];
 
-hour = diff*ratio*framesToHours;
+hour = diff*ratio/framesToHours;
 
-minTenPlace = floor(hour/10);
-minOnePlace = hour mod 10;
+minute = frac(hour) * framesToSeconds;
 
-tenPlace = floor(minute/10);
-onePlace = minute mod 10;
+minTenPlace = floor((startHour + hour)/10);
+minOnePlace = (startHour + hour) mod 10 div 1;
+
+tenPlace = floor((startMin + minute)/10);
+onePlace = (startMin + minute) mod 10 div 1;

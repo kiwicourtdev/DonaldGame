@@ -2,9 +2,9 @@
   "FolderOrderSettings":[
     {"name":"Fonts","order":5,"path":"folders/Fonts.yy",},
     {"name":"Objects","order":2,"path":"folders/Objects.yy",},
-    {"name":"Timer","order":3,"path":"folders/Objects/Timer.yy",},
     {"name":"Hands","order":1,"path":"folders/Objects/Hands.yy",},
     {"name":"Orders","order":4,"path":"folders/Objects/Orders.yy",},
+    {"name":"Timer","order":3,"path":"folders/Objects/Timer.yy",},
     {"name":"Sandwich Spot","order":1,"path":"folders/Objects/Work Areas/Sandwich Spot.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
