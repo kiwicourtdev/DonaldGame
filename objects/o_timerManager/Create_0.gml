@@ -10,6 +10,8 @@ startHour = 12;
 startMin = 0;
 duration = 8;
 
+rushDuration = 1;
+
 //Modify
 done = false;
 minTenPlace = 0;
@@ -22,3 +24,4 @@ minute = startMin;
 
 //Init
 alarm[0] = timerMax;
+rushHour = 6;
