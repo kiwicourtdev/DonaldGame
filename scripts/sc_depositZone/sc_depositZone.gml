@@ -36,6 +36,7 @@ function sc_depositZone(right){
 				if(!currentOrder.completed[j] && array_equals(baseOrder,tempArr)){
 					found = true;
 					currentOrder.completed[j] = true;
+					o_orderManager.ordersDone++;
 					break;
 				};
 			};

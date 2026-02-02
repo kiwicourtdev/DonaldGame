@@ -80,10 +80,10 @@ orderNames = [
 "Small\nNuggets",
 "Medium\nNuggets",
 "Large\nNuggets"
-]
+];
 
 total = array_length(orderNames);
-orderLength = irandom_range(1,5);
+orderLength = choose(1,1,1,1,2,2,2,2,2,2,3,3,3,4);
 lineWrapSep = 12;
 border = 8;
 destroyTimer = 300;
@@ -95,5 +95,5 @@ completed = array_create(orderLength);
 
 //Init
 for(i = 0; i < orderLength; i++){
-	ds_list_add(order,irandom_range(0,total-1));
+	ds_list_add(order,sc_weightedAverageOrder());
 };

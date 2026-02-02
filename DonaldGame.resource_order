@@ -41,6 +41,7 @@
     {"name":"sc_toastedZone","order":3,"path":"scripts/sc_toastedZone/sc_toastedZone.yy",},
     {"name":"sc_toaster","order":4,"path":"scripts/sc_toaster/sc_toaster.yy",},
     {"name":"sc_trashCan","order":7,"path":"scripts/sc_trashCan/sc_trashCan.yy",},
+    {"name":"sc_weightedAverageOrder","order":8,"path":"scripts/sc_weightedAverageOrder/sc_weightedAverageOrder.yy",},
     {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
     {"name":"s_depositZone","order":2,"path":"sprites/s_depositZone/s_depositZone.yy",},
     {"name":"s_empty","order":1,"path":"sprites/s_empty/s_empty.yy",},

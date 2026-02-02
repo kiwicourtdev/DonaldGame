@@ -70,6 +70,7 @@
     {"id":{"name":"sc_toastedZone","path":"scripts/sc_toastedZone/sc_toastedZone.yy",},},
     {"id":{"name":"sc_toaster","path":"scripts/sc_toaster/sc_toaster.yy",},},
     {"id":{"name":"sc_trashCan","path":"scripts/sc_trashCan/sc_trashCan.yy",},},
+    {"id":{"name":"sc_weightedAverageOrder","path":"scripts/sc_weightedAverageOrder/sc_weightedAverageOrder.yy",},},
     {"id":{"name":"s_basicBunRack","path":"sprites/s_basicBunRack/s_basicBunRack.yy",},},
     {"id":{"name":"s_deluxeBunRack","path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},},
     {"id":{"name":"s_depositZone","path":"sprites/s_depositZone/s_depositZone.yy",},},

@@ -6,12 +6,10 @@ xMin = 64;
 xMax = 320;
 gap = 128;
 
-baseOrderGap = 20;
+baseOrderGap = 2400;
 
 rushBonusMax = 2;
 rushBonusGap = 300;
-
-orderQuota = 30;
 
 //Modify
 orderList = ds_list_create();
@@ -19,11 +17,12 @@ vis = true;
 xOffset = 0;
 
 orderGapMin = baseOrderGap
-orderGapMax = 2*orderGapMin;
+orderGapMax = 1.25*orderGapMin;
 rushGapMult = 1;
 
 rushBonusCount = 0;
 
+orderQuota = floor(o_timerManager.timerMax/orderGapMax);
 ordersDone = 0;
 
 //Init
