@@ -2,9 +2,6 @@
 
 //Final
 timerMax = 18059;
-framesToHours = 216000;
-framesToMinutes = 3600;
-framesToSeconds = 60;
 
 startHour = 12;
 startMin = 0;

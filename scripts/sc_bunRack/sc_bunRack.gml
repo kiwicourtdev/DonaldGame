@@ -22,6 +22,10 @@ function sc_bunRack(right){
 				global.sourceID[right] = id;
 		
 				sc_pickup(right,hold,singleUse);
+			}else{ //Restock
+				if(alarm[0] == -1){
+					alarm[0] = restockTime;
+				};
 			};
 		};
 	}else{//Put Down

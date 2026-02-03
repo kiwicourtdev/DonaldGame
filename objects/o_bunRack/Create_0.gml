@@ -7,6 +7,7 @@ singleUse = true;
 hold = global.pickup.basicBun;
 holdSprite = s_hBasicBun;
 tool = false;
+restockTime = 30*global.framesToSeconds;
 
 enum toolNeed{
 	none,

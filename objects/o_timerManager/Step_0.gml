@@ -1,11 +1,11 @@
 /// @description Calculate Digits and Make Rushes
-var ratio = (duration*framesToHours)/(timerMax);
+var ratio = (duration*global.framesToHours)/(timerMax);
 
 var diff = timerMax - alarm[0];
 
-hour = diff*ratio/framesToHours;
+hour = diff*ratio/global.framesToHours;
 
-minute = frac(hour) * framesToSeconds;
+minute = frac(hour) * global.framesToSeconds;
 
 minTenPlace = floor((startHour + hour)/10);
 minOnePlace = (startHour + hour) mod 10 div 1;
