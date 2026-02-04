@@ -10,7 +10,6 @@ duration = 8;
 rushDuration = 1;
 
 //Modify
-done = false;
 minTenPlace = 0;
 minOnePlace = 0;
 tenPlace = 0;

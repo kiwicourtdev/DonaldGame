@@ -1,2 +1,2 @@
 /// @description Finish Level
-done = true;
+global.done = true;

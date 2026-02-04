@@ -5,3 +5,4 @@ with(o_orderTicket){
 	x -= o_orderManager.gap;
 };
 ds_list_delete(o_orderManager.orderList,ds_list_find_index(o_orderManager.orderList,id));
+if(ds_list_empty(o_orderManager.orderList)) vis = true;

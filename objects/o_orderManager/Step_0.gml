@@ -6,3 +6,9 @@ with(o_orderTicket){
 //Rush
 orderGapMin = baseOrderGap*rushGapMult;
 orderGapMax = 2*orderGapMin;
+
+//End
+if(global.done){
+	alarm[0]++;
+	alarm[1]++;
+};

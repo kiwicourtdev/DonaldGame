@@ -6,7 +6,7 @@ xMin = 64;
 xMax = 320;
 gap = 128;
 
-baseOrderGap = 2400;
+baseOrderGap = 1200;
 
 rushBonusMax = 2;
 rushBonusGap = 300;
