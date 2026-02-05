@@ -6,7 +6,7 @@ xMin = 64;
 xMax = 320;
 gap = 128;
 
-baseOrderGap = 1200;
+baseOrderGap = 1600;
 
 rushBonusMax = 2;
 rushBonusGap = 300;
@@ -17,7 +17,7 @@ vis = true;
 xOffset = 0;
 
 orderGapMin = baseOrderGap
-orderGapMax = 1.25*orderGapMin;
+orderGapMax = 1.125*orderGapMin;
 rushGapMult = 1;
 
 rushBonusCount = 0;

@@ -9,6 +9,8 @@ duration = 8;
 
 rushDuration = 1;
 
+fadeOutMax = 600;
+
 //Modify
 minTenPlace = 0;
 minOnePlace = 0;
@@ -17,6 +19,8 @@ onePlace = 0;
 
 hour = startHour;
 minute = startMin;
+
+success = false;
 
 //Init
 alarm[0] = timerMax;
