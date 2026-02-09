@@ -54,6 +54,9 @@ global.framesToHours = 216000;
 global.framesToMinutes = 3600;
 global.framesToSeconds = 60;
 
+global.width = 480;
+global.height = 270;
+
 //Modify
 hands = [noone,noone];
 global.sourceID = [noone,noone];

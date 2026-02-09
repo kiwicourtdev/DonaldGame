@@ -22,3 +22,9 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 }else{
 	o_orderManager.rushGapMult = 1;
 };
+
+//Fadeout Moving
+if(fade >= 1){
+	if(o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
+	if(o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
+};

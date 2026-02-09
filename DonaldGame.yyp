@@ -49,6 +49,7 @@
     {"id":{"name":"f_vcr10","path":"fonts/f_vcr10/f_vcr10.yy",},},
     {"id":{"name":"o_bunRack","path":"objects/o_bunRack/o_bunRack.yy",},},
     {"id":{"name":"o_depositZone","path":"objects/o_depositZone/o_depositZone.yy",},},
+    {"id":{"name":"o_fadeLine","path":"objects/o_fadeLine/o_fadeLine.yy",},},
     {"id":{"name":"o_hand","path":"objects/o_hand/o_hand.yy",},},
     {"id":{"name":"o_handManager","path":"objects/o_handManager/o_handManager.yy",},},
     {"id":{"name":"o_orderManager","path":"objects/o_orderManager/o_orderManager.yy",},},

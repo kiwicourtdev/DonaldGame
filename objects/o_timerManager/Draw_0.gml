@@ -2,30 +2,29 @@
 
 //Fadeout
 var c = c_black;
-var width = camera_get_view_width(view_camera[0]);
-var height = camera_get_view_height(view_camera[0]);
 
 if(global.done){
-	var fade = fadeOutMultiple-(fadeOutMultiple*abs(fadeOutMax-alarm[1]*2))/(fadeOutMax);
+	fade = fadeOutMultiple-(fadeOutMultiple*abs(fadeOutMax-alarm[1]*2))/(fadeOutMax);
 	draw_set_alpha(fade);
-	draw_rectangle_colour(0, 0, width, height, c, c, c, c, false);
+	draw_rectangle_colour(0, 0, global.width, global.height, c, c, c, c, false);
 }
 
 //Debug Stuff
 
+c = c_lime;
 draw_set_alpha(1);
 
-draw_text(x,y,string(minTenPlace)+string(minOnePlace)+":"+string(tenPlace)+string(onePlace));
+draw_text_color(x,y,string(minTenPlace)+string(minOnePlace)+":"+string(tenPlace)+string(onePlace),c,c,c,c,1);
 
-draw_text(x,y+16,string(alarm[0]/global.framesToSeconds));
+draw_text_color(x,y+16,string(alarm[0]/global.framesToSeconds),c,c,c,c,1);
 
-draw_text(x,y+32,string(o_orderManager.orderGapMin));
+draw_text_color(x,y+32,string(o_orderManager.orderGapMin),c,c,c,c,1);
 
-draw_text(x,y+48,string(o_orderManager.orderQuota));
-draw_text(x,y+64,string(o_orderManager.ordersDone));
+draw_text_color(x,y+48,string(o_orderManager.orderQuota),c,c,c,c,1);
+draw_text_color(x,y+64,string(o_orderManager.ordersDone),c,c,c,c,1);
 
-if(global.done) draw_text(x,y+80,string(fade));
-draw_text(x,y+96,string(alarm[1]));
+draw_text_color(x,y+80,string(fade),c,c,c,c,1);
+draw_text_color(x,y+96,string(alarm[1]),c,c,c,c,1);
 
 /*if(global.done){
 	if(success){

@@ -22,6 +22,7 @@ hour = startHour;
 minute = startMin;
 
 success = false;
+fade = 0;
 
 //Init
 alarm[0] = timerMax;

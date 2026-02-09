@@ -27,6 +27,7 @@
   "ResourceOrderSettings":[
     {"name":"o_bunRack","order":2,"path":"objects/o_bunRack/o_bunRack.yy",},
     {"name":"o_depositZone","order":4,"path":"objects/o_depositZone/o_depositZone.yy",},
+    {"name":"o_fadeLine","order":5,"path":"objects/o_fadeLine/o_fadeLine.yy",},
     {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},
     {"name":"o_orderManager","order":1,"path":"objects/o_orderManager/o_orderManager.yy",},
     {"name":"o_sandwichFinisher","order":1,"path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},
