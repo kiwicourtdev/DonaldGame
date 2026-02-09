@@ -1,1 +1,2 @@
 /// @description Fadeout
+fadeWait = false;

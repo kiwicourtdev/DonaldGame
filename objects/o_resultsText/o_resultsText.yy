@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"o_fadeLine",
+  "%Name":"o_resultsText",
   "eventList":[],
   "managed":true,
-  "name":"o_fadeLine",
+  "name":"o_resultsText",
   "overriddenProperties":[],
   "parent":{
     "name":"Level End",
     "path":"folders/Objects/Level End.yy",
   },
-  "parentObjectId":{
-    "name":"o_worldObject",
-    "path":"objects/o_worldObject/o_worldObject.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

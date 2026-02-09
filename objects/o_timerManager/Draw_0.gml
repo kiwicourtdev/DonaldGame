@@ -3,7 +3,7 @@
 //Fadeout
 var c = c_black;
 
-if(global.done){
+if(fadeWait){
 	fade = fadeOutMultiple-(fadeOutMultiple*abs(fadeOutMax-alarm[1]*2))/(fadeOutMax);
 	draw_set_alpha(fade);
 	draw_rectangle_colour(0, 0, global.width, global.height, c, c, c, c, false);

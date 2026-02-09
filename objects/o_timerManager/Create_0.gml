@@ -11,6 +11,9 @@ rushDuration = 1;
 
 fadeOutMax = 600;
 fadeOutMultiple = 2;
+fadeOutWait = 300;
+
+fadeWait = false;
 
 //Modify
 minTenPlace = 0;
