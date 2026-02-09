@@ -5,8 +5,11 @@ var c = c_black;
 var width = camera_get_view_width(view_camera[0]);
 var height = camera_get_view_height(view_camera[0]);
 
-draw_set_alpha(alarm[1]);
-draw_rectangle_colour(0, 0, width, height, c, c, c, c, false);
+if(global.done){
+	var fade = fadeOutMultiple-(fadeOutMultiple*abs(fadeOutMax-alarm[1]*2))/(fadeOutMax);
+	draw_set_alpha(fade);
+	draw_rectangle_colour(0, 0, width, height, c, c, c, c, false);
+}
 
 //Debug Stuff
 
@@ -21,7 +24,10 @@ draw_text(x,y+32,string(o_orderManager.orderGapMin));
 draw_text(x,y+48,string(o_orderManager.orderQuota));
 draw_text(x,y+64,string(o_orderManager.ordersDone));
 
-if(global.done){
+if(global.done) draw_text(x,y+80,string(fade));
+draw_text(x,y+96,string(alarm[1]));
+
+/*if(global.done){
 	if(success){
 		c = c_green;
 	}else{

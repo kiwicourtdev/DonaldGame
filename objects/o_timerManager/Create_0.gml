@@ -1,7 +1,7 @@
 /// @description Init
 
 //Final
-timerMax = 18059;
+timerMax = 120;
 
 startHour = 12;
 startMin = 0;
@@ -10,6 +10,7 @@ duration = 8;
 rushDuration = 1;
 
 fadeOutMax = 600;
+fadeOutMultiple = 2;
 
 //Modify
 minTenPlace = 0;
