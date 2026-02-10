@@ -27,10 +27,12 @@
     {"name":"Toaster","order":2,"path":"folders/Sprites/Work Areas/Toaster.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"f_vcr24","order":1,"path":"fonts/f_vcr24/f_vcr24.yy",},
     {"name":"o_bunRack","order":2,"path":"objects/o_bunRack/o_bunRack.yy",},
     {"name":"o_depositZone","order":4,"path":"objects/o_depositZone/o_depositZone.yy",},
     {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},
     {"name":"o_orderManager","order":1,"path":"objects/o_orderManager/o_orderManager.yy",},
+    {"name":"o_resultStar","order":2,"path":"objects/o_resultStar/o_resultStar.yy",},
     {"name":"o_resultsText","order":1,"path":"objects/o_resultsText/o_resultsText.yy",},
     {"name":"o_sandwichFinisher","order":1,"path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},
     {"name":"o_screenMover","order":3,"path":"objects/o_screenMover/o_screenMover.yy",},

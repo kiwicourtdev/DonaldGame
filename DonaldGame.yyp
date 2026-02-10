@@ -48,7 +48,8 @@
   },
   "name":"DonaldGame",
   "resources":[
-    {"id":{"name":"f_vcr10","path":"fonts/f_vcr10/f_vcr10.yy",},},
+    {"id":{"name":"f_vcr24","path":"fonts/f_vcr24/f_vcr24.yy",},},
+    {"id":{"name":"f_vcr8","path":"fonts/f_vcr8/f_vcr8.yy",},},
     {"id":{"name":"o_bunRack","path":"objects/o_bunRack/o_bunRack.yy",},},
     {"id":{"name":"o_depositZone","path":"objects/o_depositZone/o_depositZone.yy",},},
     {"id":{"name":"o_fadeLine","path":"objects/o_fadeLine/o_fadeLine.yy",},},
@@ -56,6 +57,7 @@
     {"id":{"name":"o_handManager","path":"objects/o_handManager/o_handManager.yy",},},
     {"id":{"name":"o_orderManager","path":"objects/o_orderManager/o_orderManager.yy",},},
     {"id":{"name":"o_orderTicket","path":"objects/o_orderTicket/o_orderTicket.yy",},},
+    {"id":{"name":"o_resultStar","path":"objects/o_resultStar/o_resultStar.yy",},},
     {"id":{"name":"o_resultsText","path":"objects/o_resultsText/o_resultsText.yy",},},
     {"id":{"name":"o_sandwichFinisher","path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},},
     {"id":{"name":"o_sandwichSpot","path":"objects/o_sandwichSpot/o_sandwichSpot.yy",},},

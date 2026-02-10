@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"f_vcr10",
+  "%Name":"f_vcr12",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":13,
@@ -117,7 +117,7 @@
   "last":0,
   "lineHeight":13,
   "maintainGms1Font":false,
-  "name":"f_vcr10",
+  "name":"f_vcr12",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
