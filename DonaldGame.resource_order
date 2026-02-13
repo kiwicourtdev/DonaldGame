@@ -84,6 +84,7 @@
     {"name":"s_hTomato","order":6,"path":"sprites/s_hTomato/s_hTomato.yy",},
     {"name":"s_orderTicket","order":4,"path":"sprites/s_orderTicket/s_orderTicket.yy",},
     {"name":"s_resultStar","order":1,"path":"sprites/s_resultStar/s_resultStar.yy",},
+    {"name":"s_resultStar2","order":2,"path":"sprites/s_resultStar2/s_resultStar2.yy",},
     {"name":"s_sandwichFinisher","order":1,"path":"sprites/s_sandwichFinisher/s_sandwichFinisher.yy",},
     {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
     {"name":"s_toastedZone","order":1,"path":"sprites/s_toastedZone/s_toastedZone.yy",},

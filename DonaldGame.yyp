@@ -125,6 +125,7 @@
     {"id":{"name":"s_hTongs","path":"sprites/s_hTongs/s_hTongs.yy",},},
     {"id":{"name":"s_orderTicket","path":"sprites/s_orderTicket/s_orderTicket.yy",},},
     {"id":{"name":"s_resultStar","path":"sprites/s_resultStar/s_resultStar.yy",},},
+    {"id":{"name":"s_resultStar2","path":"sprites/s_resultStar2/s_resultStar2.yy",},},
     {"id":{"name":"s_sandwichFinisher","path":"sprites/s_sandwichFinisher/s_sandwichFinisher.yy",},},
     {"id":{"name":"s_screenMover","path":"sprites/s_screenMover/s_screenMover.yy",},},
     {"id":{"name":"s_superBunRack","path":"sprites/s_superBunRack/s_superBunRack.yy",},},
