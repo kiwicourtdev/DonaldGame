@@ -62,6 +62,7 @@
     {"id":{"name":"o_sandwichFinisher","path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},},
     {"id":{"name":"o_sandwichSpot","path":"objects/o_sandwichSpot/o_sandwichSpot.yy",},},
     {"id":{"name":"o_screenMover","path":"objects/o_screenMover/o_screenMover.yy",},},
+    {"id":{"name":"o_text","path":"objects/o_text/o_text.yy",},},
     {"id":{"name":"o_timerManager","path":"objects/o_timerManager/o_timerManager.yy",},},
     {"id":{"name":"o_toastedZone","path":"objects/o_toastedZone/o_toastedZone.yy",},},
     {"id":{"name":"o_toaster","path":"objects/o_toaster/o_toaster.yy",},},

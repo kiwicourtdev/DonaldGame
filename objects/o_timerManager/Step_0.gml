@@ -25,6 +25,14 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 
 //Fadeout Moving
 if(fade >= 1){
-	if(o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
-	if(o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
+	if(!instance_exists(o_resultsText)){
+		//Moving to Results Screen
+		if(o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
+		if(o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
+	}else{
+		//Moving to House
+		with(o_worldObject){ x -= global.width; };
+		//Deleting Results Text
+		if(instance_exists(o_resultsText)) instance_destroy(o_resultsText);
+	};
 };

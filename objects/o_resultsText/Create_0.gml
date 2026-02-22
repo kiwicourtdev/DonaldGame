@@ -4,10 +4,11 @@
 bigFont = f_vcr24;
 smallFont = f_vcr8;
 
-textTimeGap = 120;
+textTimeGap = 90;
+fadeWaitGap = 300;
 
 show = [
-	"EVALUATION:",
+	"EVALUATION",
 	"ORDERS: ",
 	"HEAT: ",
 	"VERDICT: "
@@ -25,7 +26,7 @@ baseX = global.width/2;
 baseY = global.height/array_length(show);
 
 	//This gets the difference of the window height and the baseY, then dividing it by the length of the text array.
-yMod = (global.height-2*baseY)/array_length(show);
+yMod = (global.height-2*baseY)/(array_length(show)-1);
 
 c = c_aqua;
 

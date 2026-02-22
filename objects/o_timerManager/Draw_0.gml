@@ -7,12 +7,14 @@ if(fadeWait){
 	fade = fadeOutMultiple-(fadeOutMultiple*abs(fadeOutMax-alarm[1]*2))/(fadeOutMax);
 	draw_set_alpha(fade);
 	draw_rectangle_colour(0, 0, global.width, global.height, c, c, c, c, false);
-}
+};
 
-//Debug Stuff
+draw_set_alpha(1);
+
+/*/Debug Stuff
 
 c = c_lime;
-draw_set_alpha(1);
+
 
 draw_text_color(x,y,string(minTenPlace)+string(minOnePlace)+":"+string(tenPlace)+string(onePlace),c,c,c,c,1);
 

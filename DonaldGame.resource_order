@@ -36,6 +36,7 @@
     {"name":"o_resultsText","order":1,"path":"objects/o_resultsText/o_resultsText.yy",},
     {"name":"o_sandwichFinisher","order":1,"path":"objects/o_sandwichFinisher/o_sandwichFinisher.yy",},
     {"name":"o_screenMover","order":3,"path":"objects/o_screenMover/o_screenMover.yy",},
+    {"name":"o_text","order":7,"path":"objects/o_text/o_text.yy",},
     {"name":"o_toaster","order":1,"path":"objects/o_toaster/o_toaster.yy",},
     {"name":"o_trashCan","order":5,"path":"objects/o_trashCan/o_trashCan.yy",},
     {"name":"o_worldObject","order":2,"path":"objects/o_worldObject/o_worldObject.yy",},
