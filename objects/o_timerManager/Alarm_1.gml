@@ -1,5 +1,6 @@
 /// @description Fadeout and Manage o_resultsText
 fadeWait = false;
+moved = false;
 
 //Restore atWork if Teleporting Back
 if(x >= global.width) global.atWork = true;

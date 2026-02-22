@@ -27,6 +27,8 @@ minute = startMin;
 success = false;
 fade = 0;
 
+moved = false;
+
 //Init
 alarm[0] = timerMax;
 rushHour = 6;

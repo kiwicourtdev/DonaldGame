@@ -24,19 +24,19 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 };
 
 //Fadeout Moving
-if(fade >= 1.5){
+if(fade >= 1){
 	if(!instance_exists(o_resultsText)){
-		if(global.atWork && fade >= 1.6){
+		if(global.atWork){
 			//Moving to Results Screen
-			if(o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
-			if(o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
+			if(!moved && o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; moved = true; };
+			if(!moved && o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; moved = true; };
 		}else{
 			//Moving Back
-			if(fade == 1.5 && x < 0) with(o_worldObject){ x += 2*global.width; };
+			if(!moved && x < global.width && o_door.x < global.width) with(o_worldObject){ x += 2*global.width; moved = true; };
 		};
 	}else{
 		//Moving to House
-		if(fade == 2) with(o_worldObject){ x -= global.width; };
+		if(x > 0 && !moved) with(o_worldObject){ x -= global.width; moved = true; };
 		//Deleting Results Text
 		if(instance_exists(o_resultsText)) instance_destroy(o_resultsText);
 	};
