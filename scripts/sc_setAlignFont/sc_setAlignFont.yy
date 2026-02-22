@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_toaster",
+  "%Name":"sc_setAlignFont",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_toaster",
+  "name":"sc_setAlignFont",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
