@@ -64,6 +64,8 @@ global.finishedSandwiches = [noone,noone];
 
 global.done = false;
 
+global.atWork = true;
+
 //Init
 hands[0] = instance_create_depth(80,220,depth,o_hand);
 
