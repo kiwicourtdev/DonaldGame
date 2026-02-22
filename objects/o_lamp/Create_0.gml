@@ -4,11 +4,11 @@ event_inherited();
 
 //Final
 name = "Lamp";
-desc = "Turn on da fuckin lights.";
+desc = "Turn on da tiny fuckin light.";
 lightSprite = s_lampLight;
-darkSprite = s_shade;
-radius = 64;
+lightIntensity = .6;
 
 //Modify
 on = true;
+lightsOff = false;
 lightSurface = -1;

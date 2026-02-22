@@ -2,15 +2,18 @@
 
 event_inherited();
 
-//draw_sprite(darkSprite,0,0,0);
-
 if (!surface_exists(lightSurface)){
-    lightSurface = surface_create(100,100);
-}
+    lightSurface = surface_create(global.width, global.height);
+};
 
-surface_set_target(lightSurface);
-draw_clear_alpha(c_black,1);
-/*gpu_set_blendmode(bm_subtract);
-draw_circle(x, y, radius, false);
-gpu_set_blendmode(bm_normal);*/
-surface_reset_target();
+//Uses the new surface to draw a black rectangle then draw a subtracting sprite.
+if(lightsOff){
+	surface_set_target(lightSurface);
+	draw_clear_alpha(c_black,lightIntensity);
+	gpu_set_blendmode(bm_subtract);
+		if(on) draw_sprite(lightSprite,0,x,y);
+	gpu_set_blendmode(bm_normal);
+	surface_reset_target();
+
+	draw_surface(lightSurface,0,0);
+};

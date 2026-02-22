@@ -5,7 +5,6 @@ name = "TV";
 desc = "Watch some shit.";
 c = c_black;
 
-nameDescOffset = 12;
 boxOffset = 8;
 boxGap = 4;
 

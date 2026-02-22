@@ -2,5 +2,4 @@
 
 event_inherited();
 
-if(hovering && mouse_check_button_pressed(mb_left))
-on = !on;
+if(hovering && mouse_check_button_pressed(mb_left)) on = !on;
