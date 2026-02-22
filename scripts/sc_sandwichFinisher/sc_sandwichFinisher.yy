@@ -6,7 +6,7 @@
   "name":"sc_sandwichFinisher",
   "parent":{
     "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "path":"folders/Sprites/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

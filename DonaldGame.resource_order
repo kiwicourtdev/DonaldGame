@@ -8,7 +8,7 @@
     {"name":"Timer","order":3,"path":"folders/Objects/Timer.yy",},
     {"name":"Sandwich Spot","order":1,"path":"folders/Objects/Work Areas/Sandwich Spot.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
-    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Scripts","order":3,"path":"folders/Sprites/Scripts.yy",},
     {"name":"Sprites","order":3,"path":"folders/Sprites.yy",},
     {"name":"Game Functions","order":2,"path":"folders/Sprites/Game Functions.yy",},
     {"name":"Results","order":5,"path":"folders/Sprites/Game Functions/Results.yy",},

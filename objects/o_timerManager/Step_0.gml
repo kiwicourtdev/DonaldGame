@@ -31,7 +31,7 @@ if(fade >= 1){
 		if(o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
 	}else{
 		//Moving to House
-		with(o_worldObject){ x -= global.width; };
+		if(fade == 1) with(o_worldObject){ x -= 480; };
 		//Deleting Results Text
 		if(instance_exists(o_resultsText)) instance_destroy(o_resultsText);
 	};

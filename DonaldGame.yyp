@@ -20,7 +20,7 @@
     {"$GMFolder":"","%Name":"Sandwich Spot","folderPath":"folders/Objects/Work Areas/Sandwich Spot.yy","name":"Sandwich Spot","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Toaster","folderPath":"folders/Objects/Work Areas/Toaster.yy","name":"Toaster","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Sprites/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Game Functions","folderPath":"folders/Sprites/Game Functions.yy","name":"Game Functions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Results","folderPath":"folders/Sprites/Game Functions/Results.yy","name":"Results","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -48,8 +48,8 @@
   },
   "name":"DonaldGame",
   "resources":[
+    {"id":{"name":"f_vcr10","path":"fonts/f_vcr10/f_vcr10.yy",},},
     {"id":{"name":"f_vcr24","path":"fonts/f_vcr24/f_vcr24.yy",},},
-    {"id":{"name":"f_vcr8","path":"fonts/f_vcr8/f_vcr8.yy",},},
     {"id":{"name":"o_bunRack","path":"objects/o_bunRack/o_bunRack.yy",},},
     {"id":{"name":"o_depositZone","path":"objects/o_depositZone/o_depositZone.yy",},},
     {"id":{"name":"o_fadeLine","path":"objects/o_fadeLine/o_fadeLine.yy",},},
