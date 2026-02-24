@@ -1,5 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description Picks up or puts down objects as well as returns tools when used and attempts to restock empty containers.
+/// @param {int64}  right				The hand being used.
+/// @return {void}
 function sc_bunRack(right){
 	if(!global.done){
 		var hand = o_handManager.hands[right];

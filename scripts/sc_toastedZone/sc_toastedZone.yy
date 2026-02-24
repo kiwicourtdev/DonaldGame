@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_toastedZone",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Kitchen",
+    "path":"folders/Scripts/Interactables/Kitchen.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

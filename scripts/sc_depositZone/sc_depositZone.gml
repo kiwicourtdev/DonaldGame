@@ -1,5 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description Attempts to match a finished order with a requested order, tossing it in either case.
+/// @param {int64}  right				The hand being used.
+/// @return {void}
 function sc_depositZone(right){
 	if(!global.done){
 		var hand = o_handManager.hands[right];

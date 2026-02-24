@@ -1,3 +1,5 @@
+/// @description A weighted average system to pick which items are on orders.
+/// @return {int64}
 function sc_weightedAverageOrder(){
 	var odds = [
 		{item: orders.ham, chance: 475},

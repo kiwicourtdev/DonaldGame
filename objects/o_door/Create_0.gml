@@ -5,3 +5,5 @@ event_inherited();
 //Final
 name = "Door";
 desc = "Get some sleep\nbefore work tomorrow.";
+
+intScript = sc_houseDoor;

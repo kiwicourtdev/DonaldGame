@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_sandwichSpot",
+  "%Name":"sc_houseDoor",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_sandwichSpot",
+  "name":"sc_houseDoor",
   "parent":{
-    "name":"Kitchen",
-    "path":"folders/Scripts/Interactables/Kitchen.yy",
+    "name":"House",
+    "path":"folders/Scripts/Interactables/House.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

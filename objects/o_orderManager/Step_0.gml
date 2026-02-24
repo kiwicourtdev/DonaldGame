@@ -1,4 +1,6 @@
 /// @description Update Visibility and Order Frequency
+
+//Order Visibility
 with(o_orderTicket){
 	if(image_alpha != other.vis) image_alpha = other.vis;
 };

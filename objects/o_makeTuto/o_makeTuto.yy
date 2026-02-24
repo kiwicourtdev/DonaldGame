@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"o_door",
+  "%Name":"o_makeTuto",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_door",
+  "name":"o_makeTuto",
   "overriddenProperties":[],
   "parent":{
-    "name":"House",
-    "path":"folders/Objects/House.yy",
+    "name":"Orders",
+    "path":"folders/Objects/Orders.yy",
   },
-  "parentObjectId":{
-    "name":"o_houseInteract",
-    "path":"objects/o_houseInteract/o_houseInteract.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_houseInteract",
-    "path":"sprites/s_houseInteract/s_houseInteract.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

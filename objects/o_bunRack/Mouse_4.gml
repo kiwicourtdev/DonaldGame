@@ -1,3 +1,3 @@
 /// @description Pickup/Place
 
-sc_bunRack(0);
+sc_bunRack(0)

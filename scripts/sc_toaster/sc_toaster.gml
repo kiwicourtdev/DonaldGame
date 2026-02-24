@@ -1,5 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description Attempts to find an open spot in the toaster and put it in.
+/// @param {int64}  right				The hand being used.
+/// @return {void}
 function sc_toaster(right){
 	if(!global.done){
 		if(bunsIn < bunsMax && (o_handManager.hands[right].hold == global.pickup.basicBun || o_handManager.hands[right].hold == global.pickup.deluxeBun || o_handManager.hands[right].hold == global.pickup.superBun)){

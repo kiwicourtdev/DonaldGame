@@ -8,6 +8,8 @@ desc = "Turn on da tiny fuckin light.";
 lightSprite = s_lampLight;
 lightIntensity = .6;
 
+intScript = sc_houseLamp;
+
 //Modify
 on = true;
 lightsOff = false;

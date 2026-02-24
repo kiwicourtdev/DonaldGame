@@ -1,5 +1,6 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/// @description Picks up a toasted bun from the area below the toaster, if one is there.
+/// @param {int64}  right				The hand being used.
+/// @return {void}
 function sc_toastedZone(right){
 	if(!global.done){
 		if(o_handManager.hands[right].hold == global.pickup.empty && hold != global.pickup.empty){

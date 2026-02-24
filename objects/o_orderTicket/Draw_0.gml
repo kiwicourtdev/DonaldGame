@@ -16,4 +16,4 @@ for(var i = 0; i < ds_list_size(order); i++){
 	
 	bottom = y+yOffset+string_height(orderNames[ds_list_find_value(order,i)])+lineWrapSep/2;
 };
-image_yscale = (bottom-y);
+image_yscale = (bottom-y)/sprite_get_height(sprite_index);

@@ -15,6 +15,7 @@ rushBonusGap = 300;
 orderList = ds_list_create();
 vis = true;
 xOffset = 0;
+makeVis = false;
 
 orderGapMin = baseOrderGap
 orderGapMax = 1.125*orderGapMin;
