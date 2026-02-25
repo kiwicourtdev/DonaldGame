@@ -11,6 +11,8 @@ baseOrderGap = 1600;
 rushBonusMax = 2;
 rushBonusGap = 300;
 
+firstOrderTime = 600;
+
 //Modify
 orderList = ds_list_create();
 vis = true;
@@ -27,4 +29,4 @@ orderQuota = floor(o_timerManager.timerMax/orderGapMax);
 ordersDone = 0;
 
 //Init
-alarm[0] = 600;
+alarm[0] = firstOrderTime;

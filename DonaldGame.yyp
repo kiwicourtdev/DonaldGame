@@ -82,6 +82,7 @@
     {"id":{"name":"o_worldObject","path":"objects/o_worldObject/o_worldObject.yy",},},
     {"id":{"name":"r_field","path":"rooms/r_field/r_field.yy",},},
     {"id":{"name":"sc_bunRack","path":"scripts/sc_bunRack/sc_bunRack.yy",},},
+    {"id":{"name":"sc_clearHands","path":"scripts/sc_clearHands/sc_clearHands.yy",},},
     {"id":{"name":"sc_clearOrders","path":"scripts/sc_clearOrders/sc_clearOrders.yy",},},
     {"id":{"name":"sc_depositZone","path":"scripts/sc_depositZone/sc_depositZone.yy",},},
     {"id":{"name":"sc_houseDoor","path":"scripts/sc_houseDoor/sc_houseDoor.yy",},},

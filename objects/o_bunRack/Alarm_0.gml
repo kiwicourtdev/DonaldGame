@@ -1,2 +1,2 @@
 /// @description Restock
-buns = bunsMax;
+buns = bunMax;

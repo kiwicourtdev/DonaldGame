@@ -9,6 +9,8 @@ holdSprite = s_hBasicBun;
 tool = false;
 restockTime = 30*global.framesToSeconds;
 
+restockable = true;
+
 enum toolNeed{
 	none,
 	tongs,
