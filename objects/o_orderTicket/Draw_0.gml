@@ -1,5 +1,5 @@
 /// @description Draw Sprite and Order Text
-draw_set_font(f_vcr10);
+sc_setAlignFont(halign,valign,font);
 var c = c_black;
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 var previousY = y;

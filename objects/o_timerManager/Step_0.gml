@@ -25,11 +25,14 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 
 //Fadeout Moving
 if(fade >= 1){
+	
+	if(!ds_list_empty(o_orderManager.orderList)) sc_clearOrders();
+	
 	if(!instance_exists(o_resultsText)){
 		if(global.atWork){
 			//Moving to Results Screen
-			if(!moved && o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; moved = true; };
-			if(!moved && o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; moved = true; };
+			if(!moved && o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
+			if(!moved && o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
 		}else{
 			//Moving Back
 			if(!moved && x < global.width && o_door.x < global.width) with(o_worldObject){ x += 2*global.width; moved = true; };

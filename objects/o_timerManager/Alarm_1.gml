@@ -3,7 +3,7 @@ fadeWait = false;
 moved = false;
 
 //Restore atWork if Teleporting Back
-if(x >= global.width) global.atWork = true;
+if(x >= global.width) sc_resetDay();
 
 if(!instance_exists(o_resultsText) && x >= 0 && x < global.width && global.atWork){
 	instance_create_layer(0,0,"HUDSTUFF",o_resultsText);

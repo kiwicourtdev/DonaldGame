@@ -88,6 +88,10 @@ lineWrapSep = 12;
 border = 8;
 destroyTimer = 300;
 
+halign = fa_left;
+valign = fa_top;
+font = f_vcr10;
+
 //Modify
 active = true;
 order = ds_list_create();
