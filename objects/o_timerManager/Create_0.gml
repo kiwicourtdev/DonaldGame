@@ -1,7 +1,7 @@
 /// @description Init
 
 //Final
-timerMax = 1200;
+timerMax = 120000;
 
 startHour = 12;
 startMin = 0;

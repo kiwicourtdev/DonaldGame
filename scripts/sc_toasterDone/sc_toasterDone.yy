@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_toasterDone",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_toasterDone",
+  "parent":{
+    "name":"Kitchen",
+    "path":"folders/Scripts/Interactables/Kitchen.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

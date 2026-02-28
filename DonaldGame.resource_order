@@ -62,6 +62,7 @@
     {"name":"sc_setAlignFont","order":1,"path":"scripts/sc_setAlignFont/sc_setAlignFont.yy",},
     {"name":"sc_toastedZone","order":4,"path":"scripts/sc_toastedZone/sc_toastedZone.yy",},
     {"name":"sc_toaster","order":5,"path":"scripts/sc_toaster/sc_toaster.yy",},
+    {"name":"sc_toasterDone","order":7,"path":"scripts/sc_toasterDone/sc_toasterDone.yy",},
     {"name":"sc_trashCan","order":6,"path":"scripts/sc_trashCan/sc_trashCan.yy",},
     {"name":"sc_weightedAverageOrder","order":2,"path":"scripts/sc_weightedAverageOrder/sc_weightedAverageOrder.yy",},
     {"name":"s_deluxeBunRack","order":1,"path":"sprites/s_deluxeBunRack/s_deluxeBunRack.yy",},
