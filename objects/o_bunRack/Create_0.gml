@@ -2,14 +2,13 @@
 
 //Final
 bunMax = 32;
-restockTime = 600;
 singleUse = true;
 hold = global.pickup.basicBun;
 holdSprite = s_hBasicBun;
 tool = false;
-restockTime = 30*global.framesToSeconds;
+restockTime = 5*global.framesToSeconds;
 
-perishable = false;
+restockable = false;
 
 enum toolNeed{
 	none,

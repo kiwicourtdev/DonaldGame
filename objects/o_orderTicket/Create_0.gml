@@ -92,9 +92,6 @@ halign = fa_left;
 valign = fa_top;
 font = f_vcr10;
 
-dTimeMin = 300;
-dTimeMax = 1.125*dTimeMin;
-
 //Modify
 active = true;
 order = ds_list_create();
@@ -102,11 +99,7 @@ completed = array_create(orderLength);
 
 //Init
 for(var i = 0; i < orderLength; i++){
-	show_debug_message(orders.deluxeCheese);
-	
 	var toAdd = sc_weightedAverageOrder();
-	
-	show_debug_message(toAdd);
 	
 	var add = true;
 	
@@ -118,10 +111,8 @@ for(var i = 0; i < orderLength; i++){
 				randomize();
 				add = false;
 			}else{
-				show_debug_message("FUUUCK");
-				show_debug_message(toAdd);
 				//Set a Timer to Create New Deluxe Patty
-				other.alarm[1] = random_range(other.dTimeMin,other.dTimeMax);
+				request = true;
 				dOut++;
 			};
 		};
@@ -132,7 +123,6 @@ for(var i = 0; i < orderLength; i++){
 		while((toAdd == orders.deluxeCheese || toAdd == orders.doubleDeluxe || toAdd == orders.deluxeDeluxe || toAdd == orders.deluxeDoubleDeluxe)){
 			toAdd = sc_weightedAverageOrder();
 			randomize();
-			show_debug_message(toAdd);
 		};
 	};
 	ds_list_add(order,toAdd);

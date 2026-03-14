@@ -25,7 +25,7 @@ function sc_bunRack(right){
 		
 					sc_pickup(right,hold,singleUse);
 				}else{ //Restock
-					if(alarm[0] == -1){
+					if((object_index == o_bunRack && restockable) && alarm[0] == -1){
 						alarm[0] = restockTime;
 					};
 				};
