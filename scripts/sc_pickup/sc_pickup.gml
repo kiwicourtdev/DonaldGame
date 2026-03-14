@@ -8,4 +8,6 @@ function sc_pickup(right,newHold,single){
 	hand.hold = newHold;
 	hand.holdSprite = newHold;
 	hand.dropAfterUse = single;
+	
+	
 }

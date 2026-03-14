@@ -36,7 +36,6 @@
     {"name":"f_vcr16","order":2,"path":"fonts/f_vcr16/f_vcr16.yy",},
     {"name":"f_vcr24","order":1,"path":"fonts/f_vcr24/f_vcr24.yy",},
     {"name":"o_bunRack","order":2,"path":"objects/o_bunRack/o_bunRack.yy",},
-    {"name":"o_deluxePoint","order":1,"path":"objects/o_deluxePoint/o_deluxePoint.yy",},
     {"name":"o_depositZone","order":4,"path":"objects/o_depositZone/o_depositZone.yy",},
     {"name":"o_door","order":3,"path":"objects/o_door/o_door.yy",},
     {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},

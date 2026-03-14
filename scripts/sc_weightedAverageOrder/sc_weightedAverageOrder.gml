@@ -11,7 +11,8 @@ function sc_weightedAverageOrder(){
 	
 		{item: orders.bigChicken, chance: 200},
 	
-		{item: orders.deluxeCheese, chance: 100},
+		//{item: orders.deluxeCheese, chance: 100},
+		{item: orders.deluxeCheese, chance: 600},
 		{item: orders.doubleDeluxe, chance: 100},
 		{item: orders.deluxeDeluxe, chance: 25},
 		{item: orders.deluxeDoubleDeluxe, chance: 10},

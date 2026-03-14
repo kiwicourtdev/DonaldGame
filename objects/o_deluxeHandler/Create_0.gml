@@ -11,3 +11,4 @@ dOut = 0;
 fullRackCount = 0;
 
 //Init
+dList = ds_list_create();

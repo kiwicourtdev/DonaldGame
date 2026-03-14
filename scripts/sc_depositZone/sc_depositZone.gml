@@ -44,6 +44,9 @@ function sc_depositZone(right){
 				};
 				if(found) break;
 			};
+			
+			//Rethrow Big if Not Found
+			
 	
 			ds_list_destroy(global.finishedSandwiches[right]);
 			global.finishedSandwiches[right] = noone;
