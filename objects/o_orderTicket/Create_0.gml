@@ -13,8 +13,6 @@ enum orders{
 	
 	deluxeCheese,
 	doubleDeluxe,
-	deluxeDeluxe,
-	deluxeDoubleDeluxe,
 	
 	superCheese,
 	
@@ -47,10 +45,6 @@ baseOrders = [
 	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
 	//Double Deluxe
 	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
-	//Deluxe Cheese
-	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
-	//Deluxe Double Cheese
-	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.chickenSauce,p.tomato,p.tomato,p.tomato,p.lettuce,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
 	
 	//Super Cheese
 	[p.superBox,p.superToast,p.superSauce,p.superSauce,p.onion,p.onion,p.lettuce,p.lettuce,p.pickle,p.pickle,p.cheeseSlice,p.regMeat,p.regMeat],
@@ -74,8 +68,6 @@ orderNames = [
 "Big Chicken\nSandwich",
 "Deluxe\nCheeseburger",
 "Deluxe\nDouble\nCheeseburger",
-"Deluxe\nDeluxe\nCheeseburger",
-"Double\nDeluxe\nDeluxe\nCheeseburger",
 "Super\nCheeseburger",
 "Small\nNuggets",
 "Medium\nNuggets",
@@ -104,7 +96,7 @@ for(var i = 0; i < orderLength; i++){
 	var add = true;
 	
 	//Deluxe Patty Checks
-	if(toAdd == orders.deluxeCheese || toAdd == orders.doubleDeluxe || toAdd == orders.deluxeDeluxe || toAdd == orders.deluxeDoubleDeluxe){
+	if(toAdd == orders.deluxeCheese || toAdd == orders.doubleDeluxe){
 		with(o_deluxeHandler){
 			if(dOut >= dMax){
 				//Invalidate Overstocking Deluxe Patties
@@ -113,6 +105,8 @@ for(var i = 0; i < orderLength; i++){
 			}else{
 				//Set a Timer to Create New Deluxe Patty
 				request++;
+				//More for Double
+				if(toAdd == orders.doubleDeluxe) request++;
 				dOut++;
 			};
 		};
@@ -120,7 +114,7 @@ for(var i = 0; i < orderLength; i++){
 	
 	//Try Again if Not Added
 	if(!add){
-		while((toAdd == orders.deluxeCheese || toAdd == orders.doubleDeluxe || toAdd == orders.deluxeDeluxe || toAdd == orders.deluxeDoubleDeluxe)){
+		while((toAdd == orders.deluxeCheese || toAdd == orders.doubleDeluxe)){
 			toAdd = sc_weightedAverageOrder();
 			randomize();
 		};

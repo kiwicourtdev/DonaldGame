@@ -4,8 +4,6 @@ offset += offsetInc * (o_heatManager.heat/o_heatManager.maxHeat);
 
 amount = maxAmount * (o_heatManager.heat/o_heatManager.maxHeat)
 
-if(amount == maxAmount) show_debug_message("penis debug 1");
-
 var fxStruct = layer_get_fx("Distortion");
 
 if(fxStruct != -1){
