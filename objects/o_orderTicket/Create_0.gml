@@ -83,7 +83,7 @@ orderNames = [
 ];
 
 total = array_length(orderNames);
-orderLength = choose(1,1,1,1,2,2,2,2,2,2,3,3,3,4);
+orderLength = choose(1,1,1,1,1,2,2,2,2,2,3,3,3);
 lineWrapSep = 12;
 border = 8;
 destroyTimer = 300;
@@ -92,6 +92,9 @@ halign = fa_left;
 valign = fa_top;
 font = f_vcr10;
 
+dTimeMin = 300;
+dTimeMax = 1.125*dTimeMin;
+
 //Modify
 active = true;
 order = ds_list_create();
@@ -99,5 +102,29 @@ completed = array_create(orderLength);
 
 //Init
 for(i = 0; i < orderLength; i++){
-	ds_list_add(order,sc_weightedAverageOrder());
+	var toAdd = sc_weightedAverageOrder();
+	
+	var add = true;
+	
+	//Deluxe Patty Checks
+	if(toAdd == orders.deluxeCheese || orders.doubleDeluxe || toAdd == orders.deluxeDeluxe || toAdd == orders.deluxeDoubleDeluxe){
+		with(o_deluxeHandler){
+			if(dOut >= dMax){
+				//Invalidate Overstocking Deluxe Patties
+				add = false;
+			}else{
+				//Set a Timer to Create New Deluxe Patty
+				dOut++;
+				other.alarm[1] = random_range(other.dTimeMin,other.dTimeMax);
+				fullRackCount = instance_number(o_bunRack);
+			};
+		};
+	};
+	
+	//Try Again if Not Added
+	if(add){
+		ds_list_add(order,toAdd);
+	}else{
+		i--;
+	};
 };
