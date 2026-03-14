@@ -21,6 +21,6 @@ for(var i = 0; i < ds_list_size(orderList); i++){
 	totalItems += ds_list_size(ds_list_find_value(orderList,i).order);
 };
 
-if(total >= 4){
-	o_heatManager.heat = clamp(o_heatManager.heat,heatMin,heatMax);
-}else o_heatManager.heat -= heatDecay;
+if(totalItems >= heatMin){
+	o_heatManager.heat = clamp(o_heatManager.heat+clamp(totalItems,heatMin,heatMax), 0, o_heatManager.maxHeat);
+}else o_heatManager.heat = clamp(o_heatManager.heat-heatDecay, 0, o_heatManager.maxHeat);

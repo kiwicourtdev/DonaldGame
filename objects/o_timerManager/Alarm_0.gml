@@ -1,4 +1,8 @@
 /// @description Finish Level
+with(o_heatManager){
+	heat = 0;
+};
+
 global.done = true;
 alarm[2] = fadeOutWait;
 
