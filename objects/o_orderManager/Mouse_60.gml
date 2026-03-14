@@ -6,3 +6,10 @@ if(!ds_list_empty(orderList) && ds_list_find_value(orderList,ds_list_size(orderL
 		x -= other.xOffsetAmount;
 	};
 };
+
+//Make Tuto
+if(makeTutos[array_length(makeTutos)-1].x - xOffsetAmount >= xMax){
+	with(o_makeTuto){
+		x -= other.xOffsetAmount;
+	};
+};

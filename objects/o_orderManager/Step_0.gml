@@ -4,6 +4,9 @@
 with(o_orderTicket){
 	if(image_alpha != other.vis) image_alpha = other.vis;
 };
+with(o_makeTuto){
+	if(image_alpha != other.makeVis) image_alpha = other.makeVis;
+};
 
 //Rush
 orderGapMin = baseOrderGap*rushGapMult;

@@ -9,8 +9,8 @@
   "name":"o_deluxeHandler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Deluxe Meat",
-    "path":"folders/Objects/Work Areas/Deluxe Meat.yy",
+    "name":"Work Areas",
+    "path":"folders/Objects/Work Areas.yy",
   },
   "parentObjectId":{
     "name":"o_worldObject",
