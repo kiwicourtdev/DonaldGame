@@ -66,6 +66,7 @@
     {"id":{"name":"o_fadeLine","path":"objects/o_fadeLine/o_fadeLine.yy",},},
     {"id":{"name":"o_hand","path":"objects/o_hand/o_hand.yy",},},
     {"id":{"name":"o_handManager","path":"objects/o_handManager/o_handManager.yy",},},
+    {"id":{"name":"o_heatManager","path":"objects/o_heatManager/o_heatManager.yy",},},
     {"id":{"name":"o_houseInteract","path":"objects/o_houseInteract/o_houseInteract.yy",},},
     {"id":{"name":"o_lamp","path":"objects/o_lamp/o_lamp.yy",},},
     {"id":{"name":"o_lightSwitch","path":"objects/o_lightSwitch/o_lightSwitch.yy",},},

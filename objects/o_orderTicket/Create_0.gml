@@ -112,7 +112,7 @@ for(var i = 0; i < orderLength; i++){
 				add = false;
 			}else{
 				//Set a Timer to Create New Deluxe Patty
-				request = true;
+				request++;
 				dOut++;
 			};
 		};

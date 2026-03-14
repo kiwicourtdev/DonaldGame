@@ -14,7 +14,7 @@ dOut = 0;
 
 plates = array_create(dMax);
 
-request = false;
+request = 0;
 
 //Init
 for(var i = 0; i < dMax; i++){
@@ -31,6 +31,7 @@ for(var i = 0; i < dMax; i++){
 		needsTool = toolNeed.tongs;
 		
 		sprite_index = s_deluxePlate;
-		image_index = 1;
+		image_alpha = 0;
+		image_index = 0;
 	};
 };

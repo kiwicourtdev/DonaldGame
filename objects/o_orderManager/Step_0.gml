@@ -1,4 +1,4 @@
-/// @description Update Visibility and Order Frequency
+/// @description Update Visibility and Order Frequency and Increment Heat
 
 //Order Visibility
 with(o_orderTicket){
@@ -14,3 +14,13 @@ if(global.done){
 	alarm[0]++;
 	alarm[1]++;
 };
+
+//Heat
+var totalItems = 0;
+for(var i = 0; i < ds_list_size(orderList); i++){
+	totalItems += ds_list_size(ds_list_find_value(orderList,i).order);
+};
+
+if(total >= 4){
+	o_heatManager.heat = clamp(o_heatManager.heat,heatMin,heatMax);
+}else o_heatManager.heat -= heatDecay;

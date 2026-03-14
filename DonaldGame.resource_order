@@ -40,6 +40,7 @@
     {"name":"o_depositZone","order":4,"path":"objects/o_depositZone/o_depositZone.yy",},
     {"name":"o_door","order":3,"path":"objects/o_door/o_door.yy",},
     {"name":"o_handManager","order":1,"path":"objects/o_handManager/o_handManager.yy",},
+    {"name":"o_heatManager","order":2,"path":"objects/o_heatManager/o_heatManager.yy",},
     {"name":"o_lamp","order":1,"path":"objects/o_lamp/o_lamp.yy",},
     {"name":"o_lightSwitch","order":2,"path":"objects/o_lightSwitch/o_lightSwitch.yy",},
     {"name":"o_makeTuto","order":2,"path":"objects/o_makeTuto/o_makeTuto.yy",},

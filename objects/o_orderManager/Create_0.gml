@@ -14,6 +14,10 @@ rushBonusGap = 300;
 
 firstOrderTime = 600;
 
+heatMin = 4;
+heatMax = 12;
+heatDecay = 6;
+
 //Modify
 orderList = ds_list_create();
 vis = true;

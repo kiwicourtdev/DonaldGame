@@ -45,8 +45,24 @@ function sc_depositZone(right){
 				if(found) break;
 			};
 			
-			//Rethrow Big if Not Found
-			
+			//Rethrow Big if Not Found or Free Plate if Found
+			for(var i = 0; i < ds_list_size(global.finishedSandwiches[right]); i++){
+				if(ds_list_find_value(global.finishedSandwiches[right],i) == global.pickup.bigMeat){
+					with(o_deluxeHandler){
+						if(!found)
+						request++;
+						else{
+							//Search for Empty Plate to Free
+							for(var j = 0; j < dMax; j++){
+								if(plates[j].buns == 0 && plates[j].alarm[0] <= -1){
+									dOut--;
+									plates[j].image_alpha = 0;
+								};
+							};
+						};
+					};
+				};
+			};
 	
 			ds_list_destroy(global.finishedSandwiches[right]);
 			global.finishedSandwiches[right] = noone;
