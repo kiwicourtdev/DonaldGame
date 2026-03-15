@@ -1,6 +1,7 @@
 /// @description Quick function to reset work variables.
 /// @return {void}
 function sc_resetDay(){
+	global.day++;
 	global.atWork = true;
 	global.done = false;
 	with(o_timerManager){
@@ -23,15 +24,7 @@ function sc_resetDay(){
 
 		for(var i = 0; i < dMax; i++){
 			with(plates[i]){
-				restockable = false;
-		
-				bunMax = 1;
 				buns = 0;
-
-				hold = global.pickup.bigMeat;
-				holdSprite = s_hBigMeat;
-
-				needsTool = toolNeed.tongs;
 		
 				sprite_index = s_deluxePlate;
 				image_alpha = 0;

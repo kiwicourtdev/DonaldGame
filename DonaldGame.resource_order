@@ -59,6 +59,7 @@
     {"name":"o_trashCan","order":5,"path":"objects/o_trashCan/o_trashCan.yy",},
     {"name":"o_worldObject","order":2,"path":"objects/o_worldObject/o_worldObject.yy",},
     {"name":"sc_avgGrade","order":7,"path":"scripts/sc_avgGrade/sc_avgGrade.yy",},
+    {"name":"sc_blank","order":6,"path":"scripts/sc_blank/sc_blank.yy",},
     {"name":"sc_clearHands","order":5,"path":"scripts/sc_clearHands/sc_clearHands.yy",},
     {"name":"sc_clearOrders","order":3,"path":"scripts/sc_clearOrders/sc_clearOrders.yy",},
     {"name":"sc_depositZone","order":1,"path":"scripts/sc_depositZone/sc_depositZone.yy",},

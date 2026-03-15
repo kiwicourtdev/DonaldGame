@@ -95,6 +95,7 @@
     {"id":{"name":"o_worldObject","path":"objects/o_worldObject/o_worldObject.yy",},},
     {"id":{"name":"r_field","path":"rooms/r_field/r_field.yy",},},
     {"id":{"name":"sc_avgGrade","path":"scripts/sc_avgGrade/sc_avgGrade.yy",},},
+    {"id":{"name":"sc_blank","path":"scripts/sc_blank/sc_blank.yy",},},
     {"id":{"name":"sc_bunRack","path":"scripts/sc_bunRack/sc_bunRack.yy",},},
     {"id":{"name":"sc_clearHands","path":"scripts/sc_clearHands/sc_clearHands.yy",},},
     {"id":{"name":"sc_clearOrders","path":"scripts/sc_clearOrders/sc_clearOrders.yy",},},

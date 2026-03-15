@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_blank",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_blank",
+  "parent":{
+    "name":"House",
+    "path":"folders/Scripts/Interactables/House.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

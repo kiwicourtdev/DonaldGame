@@ -4,4 +4,6 @@ event_inherited();
 
 //Final
 name = "New Game";
-desc = "Start fresh.";
+desc = "Start Fresh";
+
+intScript = sc_titleNew;

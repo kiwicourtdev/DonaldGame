@@ -4,4 +4,10 @@ event_inherited();
 
 //Final
 name = "Continue";
-desc = "Current Day:\nGrade:";
+if(global.day != -1){
+	intScript = sc_titleCont;
+	desc = "Current Day:" + string(global.day) + "\nGrade:";
+}else{
+	intScript = sc_blank;
+	desc = "No Data";
+};

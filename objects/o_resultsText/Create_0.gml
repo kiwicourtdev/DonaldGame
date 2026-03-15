@@ -10,9 +10,9 @@ fadeWaitGap = 300;
 verdict = "FAILURE";
 show = [
 	"EVALUATION",
-	"ORDERS: " + string(global.gradeP[sc_findOrderScore()]) + " (" + string(o_orderManager.ordersDone) + " / " + string(o_orderManager.orderQuota) + ")",
+	"ORDERS: " + string(global.gradeP[sc_findOrderScore()])/* + " (" + string(o_orderManager.ordersDone) + " / " + string(o_orderManager.orderQuota) + ")"*/,
 	"HEAT: " + string(global.gradeP[sc_findHeatScore()]),
-	"PERFORMANCE: " + string(global.gradeP[sc_findDayScore()]),
+	"OVERALL PERFORMANCE: " + string(global.gradeP[sc_findDayScore()]),
 	"VERDICT: "
 ];
 

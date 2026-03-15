@@ -71,4 +71,4 @@ hands[0] = instance_create_depth(80,220,depth,o_hand);
 hands[1] = instance_create_depth(400,220,depth,o_hand);
 hands[1].rightHand = true;
 
-room_speed = 600;
+//room_speed = 600;
