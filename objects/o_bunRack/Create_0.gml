@@ -1,7 +1,7 @@
 /// @description Init
 
 //Final
-bunMax = 32;
+bunMax = 6;
 singleUse = true;
 hold = global.pickup.basicBun;
 holdSprite = s_hBasicBun;
