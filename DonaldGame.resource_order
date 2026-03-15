@@ -130,5 +130,6 @@
     {"name":"s_superBunRack","order":2,"path":"sprites/s_superBunRack/s_superBunRack.yy",},
     {"name":"s_toastedZone","order":1,"path":"sprites/s_toastedZone/s_toastedZone.yy",},
     {"name":"s_trashCan","order":3,"path":"sprites/s_trashCan/s_trashCan.yy",},
+    {"name":"s_txtBox","order":7,"path":"sprites/s_txtBox/s_txtBox.yy",},
   ],
 }

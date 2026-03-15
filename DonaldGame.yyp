@@ -186,6 +186,7 @@
     {"id":{"name":"s_toastedZone","path":"sprites/s_toastedZone/s_toastedZone.yy",},},
     {"id":{"name":"s_toaster","path":"sprites/s_toaster/s_toaster.yy",},},
     {"id":{"name":"s_trashCan","path":"sprites/s_trashCan/s_trashCan.yy",},},
+    {"id":{"name":"s_txtBox","path":"sprites/s_txtBox/s_txtBox.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
