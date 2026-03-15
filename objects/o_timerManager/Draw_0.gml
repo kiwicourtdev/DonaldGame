@@ -1,6 +1,6 @@
-/// @description Draw Fadeout and Debug
+/// @description Draw Debug
 
-//Fadeout
+/*/Fadeout
 var c = c_black;
 
 if(fadeWait){
@@ -11,7 +11,7 @@ if(fadeWait){
 
 draw_set_alpha(1);
 
-/*/Debug Stuff
+//Debug Stuff
 
 c = c_lime;
 

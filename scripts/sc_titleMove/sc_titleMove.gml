@@ -4,4 +4,5 @@ function sc_titleMove(){
 	with(o_worldObject){
 		x += global.width;
 	};
+	moved = true;
 }

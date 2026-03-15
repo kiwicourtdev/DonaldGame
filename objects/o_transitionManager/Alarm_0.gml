@@ -3,5 +3,5 @@
 moved = false;
 scr = sc_blank;
 
-script_execute(endScr);
-endScr = sc_blank;
+script_execute(scrEnd);
+scrEnd = sc_blank;

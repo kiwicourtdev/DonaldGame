@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_titleMove",
+  "%Name":"sc_gameFadeEnd",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_titleMove",
+  "name":"sc_gameFadeEnd",
   "parent":{
-    "name":"During",
-    "path":"folders/Scripts/Transition Functions/During.yy",
+    "name":"End",
+    "path":"folders/Scripts/Transition Functions/End.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

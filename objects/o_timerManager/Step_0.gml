@@ -22,25 +22,3 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 }else{
 	o_orderManager.rushGapMult = 1;
 };
-
-//Fadeout Moving
-if(fade >= 1){
-	
-	if(!ds_list_empty(o_orderManager.orderList)) sc_clearOrders();
-	
-	if(!instance_exists(o_resultsText)){
-		if(global.atWork){
-			//Moving to Results Screen
-			if(!moved && o_fadeLine.x >= 0) with(o_worldObject){ x -= global.width; };
-			if(!moved && o_fadeLine.y > 0) with(o_worldObject){ y -= global.height; };
-		}else{
-			//Moving Back
-			if(!moved && x < global.width && o_door.x < global.width) with(o_worldObject){ x += 2*global.width; moved = true; };
-		};
-	}else{
-		//Moving to House
-		if(x > 0 && !moved) with(o_worldObject){ x -= global.width; moved = true; };
-		//Deleting Results Text
-		if(instance_exists(o_resultsText)) instance_destroy(o_resultsText);
-	};
-};

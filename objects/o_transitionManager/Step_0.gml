@@ -1,6 +1,5 @@
 /// @description Do Action on Fade
 
-if(!moved && fade == 1){
-	moved = true;
+if(!moved && fade >= 1){
 	script_execute(scr);
 };

@@ -1,12 +1,8 @@
-/// @description Fadeout and Manage o_resultsText
-fadeWait = false;
-moved = false;
+/// @description Fadeout Wait
+fadeWait = true;
 
-//Restore atWork if Teleporting Back
-if(x >= global.width) sc_resetDay();
-
-if(!instance_exists(o_resultsText) && x >= 0 && x < global.width && global.atWork){
-	instance_create_layer(0,0,"HUDSTUFF",o_resultsText);
-	global.atWork = false;
-	sc_clearHands();
+with(o_transitionManager){
+	alarm[0] = fadeOutMax;
+	scr = sc_gameFade;
+	scrEnd = sc_gameFadeEnd;
 };

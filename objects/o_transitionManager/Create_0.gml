@@ -9,4 +9,4 @@ fade = 0;
 moved = false;
 
 scr = sc_blank;
-endScr = sc_blank;
+scrEnd = sc_blank;

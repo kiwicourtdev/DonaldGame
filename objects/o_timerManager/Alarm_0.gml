@@ -4,7 +4,7 @@ with(o_heatManager){
 };
 
 global.done = true;
-alarm[2] = fadeOutWait;
+alarm[1] = fadeOutWait;
 
 //if(o_orderManager.ordersDone >= o_orderManager.orderQuota) success = true; DEFUNCT
 

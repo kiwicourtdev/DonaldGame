@@ -1,7 +1,9 @@
 /// @description Init
 
 //Final
-timerMax = 4.5*global.framesToMinutes;
+//timerMax = 4.5*global.framesToMinutes;
+
+timerMax = 180;
 
 startHour = 12;
 startMin = 0;
@@ -28,5 +30,5 @@ fadeWait = false;
 moved = false;
 
 //Init
-alarm[0] = timerMax;
+alarm[0] = -1;
 rushHour = 6;
