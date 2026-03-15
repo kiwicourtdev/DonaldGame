@@ -14,7 +14,9 @@ function sc_resetDay(){
 	with(o_bunRack){
 		buns = bunMax;
 	};
-	
+	with(o_heatManager){
+		totalHeat = 0;
+	};
 	with(o_deluxeHandler){
 		dOut = 0;
 		request = 0;

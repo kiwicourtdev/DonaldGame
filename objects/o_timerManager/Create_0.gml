@@ -1,7 +1,7 @@
 /// @description Init
 
 //Final
-timerMax = 120000;
+timerMax = 4.5*global.framesToMinutes;
 
 startHour = 12;
 startMin = 0;

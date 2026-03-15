@@ -13,7 +13,7 @@ rushBonusGap = 300;
 
 firstOrderTime = 600;
 
-heatMin = 4;
+heatMin = 5;
 heatMax = 12;
 heatDecay = 6;
 
@@ -32,10 +32,10 @@ baseOrders = [
 	[p.chickenWrap,p.basicToast,p.chickenSauce,p.lettuce,p.chicken],
 	
 	//Big Chicken
-	[p.bigChickenBox,p.deluxeToast,p.chickenSauce,p.lettuce,p.tomato,p.tomato,p.tomato,p.coolChicken],
+	[p.bigChickenBox,p.deluxeToast,p.chickenSauce,p.lettuce,p.tomato,p.tomato,p.coolChicken],
 	
 	//Deluxe Cheese
-	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat],
 	//Double Deluxe
 	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
 	

@@ -33,7 +33,6 @@ global.pickup = {
 	lettuce: asset_get_index(s_hLettuce),
 	
 	bigOnion: asset_get_index(s_hBigOnion),
-	coolPickle: asset_get_index(s_hCoolPickle),
 	tomato: asset_get_index(s_hTomato),
 	
 	cheeseSlice: asset_get_index(s_hCheese),
