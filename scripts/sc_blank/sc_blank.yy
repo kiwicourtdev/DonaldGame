@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_blank",
   "parent":{
-    "name":"House",
-    "path":"folders/Scripts/Interactables/House.yy",
+    "name":"Interactables",
+    "path":"folders/Scripts/Interactables.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

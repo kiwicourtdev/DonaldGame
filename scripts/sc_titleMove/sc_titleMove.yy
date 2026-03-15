@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_titleNew",
+  "%Name":"sc_titleMove",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_titleNew",
+  "name":"sc_titleMove",
   "parent":{
     "name":"Menu",
     "path":"folders/Scripts/Interactables/Menu.yy",

@@ -13,8 +13,6 @@ fadeOutMax = 600;
 fadeOutMultiple = 2;
 fadeOutWait = 300;
 
-fadeWait = false;
-
 //Modify
 minTenPlace = 0;
 minOnePlace = 0;
@@ -24,8 +22,8 @@ onePlace = 0;
 hour = startHour;
 minute = startMin;
 
-success = false;
 fade = 0;
+fadeWait = false;
 
 moved = false;
 

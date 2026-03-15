@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_titleCont",
   "parent":{
-    "name":"House",
-    "path":"folders/Scripts/Interactables/House.yy",
+    "name":"Menu",
+    "path":"folders/Scripts/Interactables/Menu.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
