@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_titleNew",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_titleNew",
+  "parent":{
+    "name":"House",
+    "path":"folders/Scripts/Interactables/House.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

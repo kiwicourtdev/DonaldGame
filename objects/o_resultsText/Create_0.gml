@@ -7,11 +7,12 @@ smallFont = f_vcr10;
 textTimeGap = 90;
 fadeWaitGap = 300;
 
-verdict = "GOOD";
+verdict = "FAILURE";
 show = [
 	"EVALUATION",
-	"ORDERS: " + string(o_orderManager.ordersDone) + " / " + string(o_orderManager.orderQuota),
-	"HEAT: " + "NOT IN THE GAME YET LMAO",
+	"ORDERS: " + string(global.gradeP[sc_findOrderScore()]) + " (" + string(o_orderManager.ordersDone) + " / " + string(o_orderManager.orderQuota) + ")",
+	"HEAT: " + string(global.gradeP[sc_findHeatScore()]),
+	"PERFORMANCE: " + string(global.gradeP[sc_findDayScore()]),
 	"VERDICT: "
 ];
 
@@ -29,7 +30,29 @@ showing = 0;
 //Init
 alarm[0] = 300;
 
-if(o_orderManager.ordersDone < o_orderManager.orderQuota)
-verdict = "FAILURE";
+if(sc_findOrderScore() != 0 && sc_findHeatScore() != 0){
+	switch(sc_findDayScore()){
+		//D RANK
+		case 1:
+			verdict = "...PITIFUL";		
+		break;
+		//C RANK
+		case 2:
+			verdict = "UNREMARKABLE";		
+		break;
+		//B RANK
+		case 3:
+			verdict = "GOOD";		
+		break;
+		//A RANK
+		case 4:
+			verdict = "FANTASTIC";		
+		break;
+		//S RANK
+		case 5:
+			verdict = "MODEL EMPLOYEE";		
+		break;
+	};
+};
 
 show[array_length(show)-1] += verdict;
