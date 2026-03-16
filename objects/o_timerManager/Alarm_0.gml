@@ -9,9 +9,10 @@ alarm[1] = fadeOutWait;
 //if(o_orderManager.ordersDone >= o_orderManager.orderQuota) success = true; DEFUNCT
 
 //Store and Save Grade
-global.grades[global.day] = sc_findDayScore();
+var day = global.day - 1;
+global.grades[day] = sc_findDayScore();
 
 ini_open(global.fname);
-	ini_write_real("Day","day",global.day);
-	ini_write_real("Grades","day"+string(global.day),global.grades[global.day]);
+	ini_write_real("Day","day",day);
+	ini_write_real("Grades","day"+string(day),global.grades[day]);
 ini_close();

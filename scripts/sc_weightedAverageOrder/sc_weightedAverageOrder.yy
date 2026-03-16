@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_weightedAverageOrder",
   "parent":{
-    "name":"Reusable Functions",
-    "path":"folders/Scripts/Reusable Functions.yy",
+    "name":"Gameplay",
+    "path":"folders/Scripts/Reusable Functions/Gameplay.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_clearHands",
   "parent":{
-    "name":"Reusable Functions",
-    "path":"folders/Scripts/Reusable Functions.yy",
+    "name":"Resetting",
+    "path":"folders/Scripts/Reusable Functions/Resetting.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

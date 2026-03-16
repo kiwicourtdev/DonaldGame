@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_gameFadeEnd",
+  "%Name":"sc_toResultsEnd",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_gameFadeEnd",
+  "name":"sc_toResultsEnd",
   "parent":{
     "name":"End",
     "path":"folders/Scripts/Transition Functions/End.yy",

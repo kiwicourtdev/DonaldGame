@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"sc_setAlignFont",
   "parent":{
-    "name":"Reusable Functions",
-    "path":"folders/Scripts/Reusable Functions.yy",
+    "name":"Visuals",
+    "path":"folders/Scripts/Reusable Functions/Visuals.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
