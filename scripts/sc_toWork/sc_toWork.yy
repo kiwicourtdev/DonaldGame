@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"sc_gameFade",
+  "%Name":"sc_toWork",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"sc_gameFade",
+  "name":"sc_toWork",
   "parent":{
     "name":"During",
     "path":"folders/Scripts/Transition Functions/During.yy",

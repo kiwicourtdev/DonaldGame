@@ -1,10 +1,11 @@
 /// @description Init
 
 //Final
-fadeOutMax = 600;
+fadeOutMaxReal = 600;
 fadeOutMultiple = 2;
 
 //Modify
+fadeOutMax = fadeOutMaxReal;
 fade = 0;
 moved = false;
 
