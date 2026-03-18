@@ -14,6 +14,8 @@ bottomBorder = txtX/2;
 width = global.width-2*txtX-2*border;
 sep = (global.height-txtY-bottomBorder)/maxRows;
 
+txtYU = sep;
+
 boxSpr = s_txtBox;
 boxType = 0;
 
@@ -23,3 +25,5 @@ txt = "";
 
 font = f_vcr10;
 c = c_black;
+
+up = false;
