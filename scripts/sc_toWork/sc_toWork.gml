@@ -3,8 +3,11 @@
 function sc_toWork(){
 	//Moving Back
 	if(o_timerManager.x < global.width && o_door.x < global.width){
-		with(o_worldObject){ x += 2*global.width; };
-		sc_resetDay();
+		if(global.day < 5){
+			sc_resetKitchen();
+			with(o_worldObject){ x += 2*global.width; };
+		}else
+		with(o_worldObject){ x -= 2*global.width; };
 		moved = true;
 	};
 }

@@ -12,7 +12,7 @@ show = [
 	"EVALUATION",
 	"ORDERS: " + string(global.gradeP[sc_findOrderScore()])/* + " (" + string(o_orderManager.ordersDone) + " / " + string(o_orderManager.orderQuota) + ")"*/,
 	"HEAT: " + string(global.gradeP[sc_findHeatScore()]),
-	"OVERALL PERFORMANCE: " + string(global.gradeP[sc_findDayScore()]),
+	"OVERALL: " + string(global.gradeP[sc_findDayScore()]),
 	"VERDICT: "
 ];
 

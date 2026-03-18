@@ -13,6 +13,6 @@ var day = global.day - 1;
 global.grades[day] = sc_findDayScore();
 
 ini_open(global.fname);
-	ini_write_real("Day","day",day);
+	ini_write_real("Day","day",global.day);
 	ini_write_real("Grades","day"+string(day),global.grades[day]);
 ini_close();

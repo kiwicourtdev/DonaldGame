@@ -5,12 +5,11 @@ function sc_avgGrade(){
 	with(o_progressHandler){
 		
 		var avgNum = 0;
-		for(var i = 0; i < totalDays; i++){
-			avgNum += global.grades[i];
-		};
+		for(var i = 0; i < global.day; i++){ avgNum += global.grades[i]; };
+		
 		avgNum /= global.day;
 		
-		grade = gradeP[avgNum];
+		grade = global.gradeP[floor(avgNum)];
 	};
 	return grade;
 }
