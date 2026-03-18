@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_tuto2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_tuto2",
+  "parent":{
+    "name":"Start",
+    "path":"folders/Scripts/Popups/Start.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

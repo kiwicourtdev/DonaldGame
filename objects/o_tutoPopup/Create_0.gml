@@ -27,6 +27,12 @@ up = [
 darkIntensity = .75;
 
 inGame = false;
+globalCount = false;
+
+scr = sc_blank;
+scrEnd = sc_blank;
+
+givenDay = -1;
 
 //Modify
 active = false;

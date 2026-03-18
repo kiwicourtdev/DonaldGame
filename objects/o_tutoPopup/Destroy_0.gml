@@ -5,3 +5,5 @@ with(o_txtBox){
 	txt = "";
 	up = false;
 };
+
+script_execute(scrEnd);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"sc_tuto1End",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"sc_tuto1End",
+  "parent":{
+    "name":"End",
+    "path":"folders/Scripts/Popups/End.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

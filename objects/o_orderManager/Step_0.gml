@@ -6,6 +6,7 @@ with(o_orderTicket){
 };
 with(o_makeTuto){
 	if(image_alpha != other.makeVis) image_alpha = other.makeVis;
+	if(!global.atWork) { image_alpha = 0; other.makeVis = false};
 };
 
 //Rush

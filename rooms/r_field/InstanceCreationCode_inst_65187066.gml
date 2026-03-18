@@ -1,6 +1,6 @@
 spawnDelay = 2;
 txt = [
-	"Middle screen tutorial text."
+	"Left screen tutorial text."
 ];
 hls = [
 	[]
