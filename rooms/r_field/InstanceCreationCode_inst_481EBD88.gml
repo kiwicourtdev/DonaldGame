@@ -1,4 +1,4 @@
-sprite_index = s_deluxeBunRack;
+sprite_index = s_ketchupRack;
 hold = global.pickup.ketchup;
 singleUse = false;
 

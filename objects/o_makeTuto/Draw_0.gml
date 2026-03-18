@@ -1,7 +1,7 @@
 /// @description Draw Ticket and Name and Order
 draw_sprite_ext(sprite_index,image_index,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
 
-draw_set_font(font);
+sc_setAlignFont(halign,valign,font);
 
 var c = c_black;
 var newY = y + border;

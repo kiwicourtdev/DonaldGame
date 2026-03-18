@@ -9,6 +9,8 @@ lineWrapSep = 12;
 border = 8;
 
 font = f_vcr10;
+valign = fa_top;
+halign = fa_left;
 
 xScale = .5;
 yScale = .5;

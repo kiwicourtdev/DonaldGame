@@ -1,4 +1,4 @@
-sprite_index = s_superBunRack;
+sprite_index = s_superRack;
 hold = global.pickup.superSauce;
 singleUse = false;
 
