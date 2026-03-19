@@ -10,12 +10,7 @@ function sc_bunRack(right){
 			//Tool Check
 			if(needsTool == toolNeed.none || (hand.hold == global.pickup.tongs && needsTool == toolNeed.tongs) || (hand.hold == global.pickup.shovel && needsTool == toolNeed.shovel)){
 		
-				//Replace Tool
-				if((hand.hold == global.pickup.tongs && needsTool == toolNeed.tongs) || (hand.hold == global.pickup.shovel && needsTool == toolNeed.shovel)){
-					global.sourceID[right].buns = 1;
-				};
-		
-				if(buns > 0){
+				if(buns > 0){	
 					if singleUse{
 						buns--;
 						if tool
@@ -23,10 +18,28 @@ function sc_bunRack(right){
 					}else
 					global.sourceID[right] = id;
 		
+					//Replace Tool
+					if((hand.hold == global.pickup.tongs && needsTool == toolNeed.tongs) || (hand.hold == global.pickup.shovel && needsTool == toolNeed.shovel)){
+						global.sourceID[right].buns = 1;
+					};
 					sc_pickup(right,hold,singleUse);
 				}else{ //Restock
 					if((object_index == o_bunRack && restockable) && alarm[0] == -1){
 						alarm[0] = restockTime;
+						//Replace Tool
+						if((hand.hold == global.pickup.tongs && needsTool == toolNeed.tongs) || (hand.hold == global.pickup.shovel && needsTool == toolNeed.shovel)){
+							global.sourceID[right].buns = 1;
+							sc_pickup(right,global.pickup.empty,false);
+						};
+					};
+				};
+			}else{ //Restocking Without a Tool
+				if((object_index == o_bunRack && restockable) && alarm[0] == -1){
+					alarm[0] = restockTime;
+					//Replace Tool
+					if((hand.hold == global.pickup.tongs && needsTool == toolNeed.tongs) || (hand.hold == global.pickup.shovel && needsTool == toolNeed.shovel)){
+						global.sourceID[right].buns = 1;
+						sc_pickup(right,global.pickup.empty,false);
 					};
 				};
 			};

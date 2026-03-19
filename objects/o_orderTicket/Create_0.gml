@@ -39,12 +39,12 @@ baseOrders = [
 	[p.chickenWrap,p.basicToast,p.chickenSauce,p.lettuce,p.chicken],
 	
 	//Big Chicken
-	[p.bigChickenBox,p.deluxeToast,p.chickenSauce,p.lettuce,p.tomato,p.tomato,p.coolChicken],
+	[p.bigChickenBox,p.deluxeToast,p.chickenSauce,p.lettuce,p.pickle,p.pickle,p.coolChicken],
 	
 	//Deluxe Cheese
-	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.onion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat],
 	//Double Deluxe
-	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.bigOnion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
+	[p.deluxeBox,p.deluxeToast,p.ketchup,p.mustard,p.onion,p.pickle,p.pickle,p.cheeseSlice,p.bigMeat,p.cheeseSlice,p.bigMeat],
 	
 	//Super Cheese
 	[p.superBox,p.superToast,p.superSauce,p.superSauce,p.onion,p.onion,p.lettuce,p.lettuce,p.pickle,p.pickle,p.cheeseSlice,p.regMeat,p.regMeat],

@@ -1,10 +1,12 @@
 /// @description Sprites
 
+if(!global.atWork) image_alpha = 0; else image_alpha = 1;
+
 //Draw the Sprite According to Hand Side
 var flip = 1;
 if(!rightHand) flip = -1;
 
-draw_sprite_ext(sprite_index,image_index,x,y,flip,1,image_angle,c_white,1);
+draw_sprite_ext(sprite_index,image_index,x,y,flip,1,image_angle,c_white,image_alpha);
 
 //Draw Held Item
 if(hold != global.pickup.empty){

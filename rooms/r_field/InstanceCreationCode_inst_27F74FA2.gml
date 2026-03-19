@@ -1,4 +1,4 @@
-sprite_index = s_deluxeBunRack;
+sprite_index = s_pickleRack;
 hold = global.pickup.pickle;
 
 bunMax = 15;

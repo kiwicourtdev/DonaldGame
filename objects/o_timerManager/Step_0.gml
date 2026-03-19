@@ -22,3 +22,8 @@ if(hour >= rushHour && hour < rushHour + rushDuration){
 }else{
 	o_orderManager.rushGapMult = 1;
 };
+
+//Pause
+var popup = false;
+with(o_tutoPopup) { if(active) popup = true; };
+if(global.atWork && popup && global.done) alarm[0]++;

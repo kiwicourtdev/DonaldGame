@@ -5,19 +5,23 @@ txt = [
 	"Also, the ending screen after the last level is purely blank."
 ];
 hls = [
+	[],
+	[],
 	[]
 ];
 radii = [
+	[],
+	[],
 	[]
 ];
 
 up = [
+	false,
+	false,
 	false
 ];
 
-inGame = true;
-
-scrEnd = sc_tuto1End;
+inGame = false;
 
 givenDay = 1;
 

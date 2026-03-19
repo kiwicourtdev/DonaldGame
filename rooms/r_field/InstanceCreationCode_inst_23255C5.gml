@@ -1,4 +1,4 @@
-sprite_index = s_deluxeBunRack;
+sprite_index = s_bigTray;
 hold = global.pickup.coolChicken;
 needsTool = toolNeed.tongs;
 

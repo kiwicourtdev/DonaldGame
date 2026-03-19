@@ -1,4 +1,4 @@
-sprite_index = s_deluxeBunRack;
+sprite_index = s_cheeseRack;
 hold = global.pickup.cheeseSlice;
 
 bunMax = 24;

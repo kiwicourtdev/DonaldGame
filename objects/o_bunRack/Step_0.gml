@@ -1,2 +1,6 @@
 /// @description Sprite Based on Progress
-image_index = .1+buns/bunMax*image_number-1;
+var index = image_number-1;
+if(index >= bunMax)
+image_index = buns/bunMax*index;
+else
+image_index = buns/bunMax*index+(bunMax-index)/bunMax;

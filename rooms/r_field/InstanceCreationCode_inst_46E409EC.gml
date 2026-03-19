@@ -1,4 +1,4 @@
-sprite_index = s_deluxeBunRack;
+sprite_index = s_wrapRack;
 hold = global.pickup.basicWrap;
 
 bunMax = 6;
