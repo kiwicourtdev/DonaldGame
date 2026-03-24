@@ -107,6 +107,7 @@
     {"name":"sc_weightedAverageOrder","order":1,"path":"scripts/sc_weightedAverageOrder/sc_weightedAverageOrder.yy",},
     {"name":"s_bigChkRack","order":11,"path":"sprites/s_bigChkRack/s_bigChkRack.yy",},
     {"name":"s_bigTray","order":2,"path":"sprites/s_bigTray/s_bigTray.yy",},
+    {"name":"s_blackBox","order":8,"path":"sprites/s_blackBox/s_blackBox.yy",},
     {"name":"s_cheeseRack","order":4,"path":"sprites/s_cheeseRack/s_cheeseRack.yy",},
     {"name":"s_chkTray","order":1,"path":"sprites/s_chkTray/s_chkTray.yy",},
     {"name":"s_chkWrapRack","order":1,"path":"sprites/s_chkWrapRack/s_chkWrapRack.yy",},

@@ -155,6 +155,7 @@
     {"id":{"name":"s_bell","path":"sprites/s_bell/s_bell.yy",},},
     {"id":{"name":"s_bigChkRack","path":"sprites/s_bigChkRack/s_bigChkRack.yy",},},
     {"id":{"name":"s_bigTray","path":"sprites/s_bigTray/s_bigTray.yy",},},
+    {"id":{"name":"s_blackBox","path":"sprites/s_blackBox/s_blackBox.yy",},},
     {"id":{"name":"s_cheeseRack","path":"sprites/s_cheeseRack/s_cheeseRack.yy",},},
     {"id":{"name":"s_chkTray","path":"sprites/s_chkTray/s_chkTray.yy",},},
     {"id":{"name":"s_chkWrapRack_1","path":"sprites/s_chkWrapRack_1/s_chkWrapRack_1.yy",},},

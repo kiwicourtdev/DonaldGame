@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"s_basicBunRack",
-    "path":"sprites/s_basicBunRack/s_basicBunRack.yy",
+    "name":"s_blackBox",
+    "path":"sprites/s_blackBox/s_blackBox.yy",
   },
   "spriteMaskId":null,
   "visible":true,
