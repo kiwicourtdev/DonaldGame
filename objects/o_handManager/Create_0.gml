@@ -62,6 +62,8 @@ global.done = true;
 
 global.atWork = false;
 
+global.firstOrder = true;
+
 //Init
 hands[0] = instance_create_depth(80,220,depth,o_hand);
 

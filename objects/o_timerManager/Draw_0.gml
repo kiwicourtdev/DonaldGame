@@ -16,17 +16,17 @@ draw_set_alpha(1);
 c = c_lime;
 
 
-draw_text_color(x,y,string(minTenPlace)+string(minOnePlace)+":"+string(tenPlace)+string(onePlace),c,c,c,c,1);
+draw_text_color(240,80,string(minTenPlace)+string(minOnePlace)+":"+string(tenPlace)+string(onePlace),c,c,c,c,1);
 
-draw_text_color(x,y+16,string(alarm[0]/global.framesToSeconds),c,c,c,c,1);
+draw_text_color(240,80+16,string(alarm[0]/global.framesToSeconds),c,c,c,c,1);
 
-draw_text_color(x,y+32,string(o_orderManager.orderGapMin),c,c,c,c,1);
+draw_text_color(240,80+32,string(o_orderManager.orderGapMin),c,c,c,c,1);
 
-draw_text_color(x,y+48,string(o_orderManager.orderQuota),c,c,c,c,1);
-draw_text_color(x,y+64,string(o_orderManager.ordersDone),c,c,c,c,1);
+draw_text_color(240,80+48,string(o_orderManager.orderQuota),c,c,c,c,1);
+draw_text_color(240,80+64,string(o_orderManager.ordersDone),c,c,c,c,1);
 
-draw_text_color(x,y+80,string(fade),c,c,c,c,1);
-draw_text_color(x,y+96,string(alarm[1]),c,c,c,c,1);
+draw_text_color(240,80+80,string(fade),c,c,c,c,1);
+draw_text_color(240,80+96,string(alarm[1]),c,c,c,c,1);
 
 /*if(global.done){
 	if(success){

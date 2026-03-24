@@ -1,7 +1,7 @@
 /// @description Check for Completion
 if(active){
 	var done = true;
-	for(var i = 0; i < array_length(completed); i++){
+	for(var i = 0; i < orderLength; i++){
 		if(!completed[i]) done = false;
 	};
 	if(done){

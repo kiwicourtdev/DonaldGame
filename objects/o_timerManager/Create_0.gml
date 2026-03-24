@@ -3,7 +3,7 @@
 //Final
 timerMax = 4.5*global.framesToMinutes;
 
-timerMax = 1200;
+//timerMax = 1200;
 
 startHour = 12;
 startMin = 0;

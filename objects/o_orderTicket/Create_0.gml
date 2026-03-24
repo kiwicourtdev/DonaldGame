@@ -119,5 +119,13 @@ for(var i = 0; i < orderLength; i++){
 			randomize();
 		};
 	};
+	
+	//First Order Override
+	if(global.firstOrder && global.day == 1){
+		toAdd = orders.cheese;
+		orderLength = 1;
+		global.firstOrder = false;
+	};
+	
 	ds_list_add(order,toAdd);
 };
