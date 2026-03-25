@@ -7,6 +7,7 @@ txt = [
 	"Some of the most common items found on various products are also stored here.",
 	"Here are ketchup and mustard containers. When handling containers, you can use them multiple times before manually replacing them.",
 	"From left to right, here is sliced cheese, shredded lettuce, pickles, and onions.",
+	"Items only have a limited stock, and must be restocked by clicking on them and waiting a short cooldown.",
 	"Each hand can pick up its own item, which is necessary to keep up with the constant stream of orders."
 ];
 hls = [
@@ -17,6 +18,7 @@ hls = [
 	[],
 	[[376, 144]],
 	[[56, 168], [136, 168], [216, 168], [280, 168]],
+	[],
 	[]
 ];
 radii = [
@@ -27,6 +29,7 @@ radii = [
 	[],
 	[64],
 	[32, 32, 32, 32],
+	[],
 	[]
 ];
 
@@ -35,6 +38,7 @@ up = [
 	true,
 	true,
 	true,
+	false,
 	false,
 	false,
 	false,

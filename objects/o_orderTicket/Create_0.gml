@@ -75,7 +75,8 @@ orderNames = [
 ];
 
 total = array_length(orderNames);
-orderLength = choose(1,1,1,1,1,2,2,2,2,2,3,3,3);
+//orderLength = choose(1,1,1,1,1,2,2,2,2,2,3,3,3);
+orderLength = 1;
 lineWrapSep = 12;
 border = 8;
 destroyTimer = 300;

@@ -1,6 +1,6 @@
 spawnDelay = 2;
 txt = [
-	"If you got this far, thank you for playing.",
+	"If you got this far, thank you for playing/watching.",
 	"There are four more " + chr(34) + "levels," + chr(34) + " but they are functionally identical at this point.",
 	"Also, the ending screen after the last level is purely blank."
 ];
